@@ -1,0 +1,19 @@
+xcassets:
+  inputs:
+    - IndoorNavigation/Resources/Images/Assets.xcassets
+  outputs:
+    - templateName: swift4
+      output: IndoorNavigation/Resources/Constants/Assets.swift
+
+fonts:
+  inputs:
+    - IndoorNavigation/Resources/Fonts/
+  outputs:
+    - templateName: swift4
+      output: IndoorNavigation/Resources/Constants/Fonts.swift
+
+strings:
+  inputs: IndoorNavigation/Resources/Strings/Localizable.strings
+  outputs:
+    - templateName: structured-swift4
+      output: IndoorNavigation/Resources/Constants/Strings.swift
