@@ -1,5 +1,5 @@
 //
-//  MainModuleRouterInput.swift
+//  TaskForDayModuleRouterInput.swift
 //  IndoorNavigation
 //
 //  Created by Rochev Studio on 28/09/2019.
@@ -8,8 +8,5 @@
 
 import Foundation
 
-protocol MainModuleRouterInput {
-    func openStartMyDay()
-    func openTaskForDay()
-    func openTasksOnLocationDay()
+protocol TaskForDayModuleRouterInput {
 }
