@@ -10,7 +10,10 @@ import NodeKit
 import Foundation
 
 struct Beacon {
-    let id: String
+    let identifier: String
+    let uuid: String
+    let major: String
+    let minor: String
     let distance: String
 }
 
@@ -20,11 +23,18 @@ extension Beacon: DTOConvertible {
     typealias DTO = BeaconEntry
 
     static func from(dto model: DTO) throws -> Beacon {
-        return Beacon(id: model.beaconId, distance: model.distance)
+        return Beacon(identifier: model.identifier,
+                      uuid: model.uuid,
+                      major: model.major,
+                      minor: model.minor,
+                      distance: model.distance)
     }
 
     func toDTO() throws -> DTO {
-        return BeaconEntry(beaconId: self.id,
+        return BeaconEntry(identifier: self.identifier,
+                           uuid: self.uuid,
+                           major: self.major,
+                           minor: self.minor,
                            distance: self.distance)
     }
 }
