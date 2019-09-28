@@ -1,20 +1,46 @@
 PODS:
+  - Alamofire (5.0.0-beta.4)
+  - AlamofireImage (4.0.0-beta.1):
+    - Alamofire (~> 5.0.0-beta.4)
+  - CoreEvents (1.3.0)
+  - NodeKit (2.2.0):
+    - Alamofire (= 5.0.0-beta.4)
+    - CoreEvents (~> 1.3.0)
   - SwiftGen (6.1.0)
   - SwiftLint (0.30.1)
 
 DEPENDENCIES:
+  - AlamofireImage (~> 4.0.0-beta.1)
+  - NodeKit (from `https://github.com/surfstudio/NodeKit`, commit `b5c30f2a30ab3d047f19e5049d858cdd5c524c55`)
   - SwiftGen (~> 6.1.0)
   - SwiftLint (~> 0.30.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - CoreEvents
     - SwiftGen
     - SwiftLint
 
+EXTERNAL SOURCES:
+  NodeKit:
+    :commit: b5c30f2a30ab3d047f19e5049d858cdd5c524c55
+    :git: https://github.com/surfstudio/NodeKit
+
+CHECKOUT OPTIONS:
+  NodeKit:
+    :commit: b5c30f2a30ab3d047f19e5049d858cdd5c524c55
+    :git: https://github.com/surfstudio/NodeKit
+
 SPEC CHECKSUMS:
+  Alamofire: 6458d95477bc40adf10129f22c67cfb014162dc8
+  AlamofireImage: c1e84c6391ca8bdb1f805b7b05d6123ca80a1880
+  CoreEvents: 4a63e862e73719738cb4d646ccac78e01bf9a95d
+  NodeKit: 2b77646682073be4d246a1975f12139279e688f6
   SwiftGen: f872ca75cbd17bf7103c17f13dcfa0d9a15667b0
   SwiftLint: a54bf1fe12b55c68560eb2a7689dfc81458508f7
 
-PODFILE CHECKSUM: 08ef3eb94f1dcd1828be82571b8b6832a2a25ec1
+PODFILE CHECKSUM: 2bbdad347826cd83f12e2daeb654a1176e4c746a
 
 COCOAPODS: 1.6.0.beta.2

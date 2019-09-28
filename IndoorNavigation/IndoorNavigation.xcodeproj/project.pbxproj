@@ -7,70 +7,110 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		004F4C54061CC1450F8CD0FD /* TaskForDayModuleViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4AFB734C8C1C51F77FBE60 /* TaskForDayModuleViewInput.swift */; };
 		050095B782ABE3DCD59C4580 /* TaskForDayModuleModuleConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8703FF6C0EF146DD3D038AA0 /* TaskForDayModuleModuleConfiguratorTests.swift */; };
 		068B8A35BBF6E416EE4DC0C0 /* MyTaskOnLocationModuleModuleConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13350D9FAC6CF6C063B66275 /* MyTaskOnLocationModuleModuleConfiguratorTests.swift */; };
-		07E2264DA3B83F7B55DE78CB /* TasksOnLocationModuleModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10953B67BA106BF13FF2EE0D /* TasksOnLocationModuleModuleConfigurator.swift */; };
-		0DD3E509379D3AF3EAD2A601 /* TaskForDayModuleViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6480E2A7093B9025F66D2C22 /* TaskForDayModuleViewOutput.swift */; };
-		0FA478FC5A4EFC10FC922C40 /* StartMyDayModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DD87A7FFE7416599962B6C /* StartMyDayModuleRouter.swift */; };
-		12CE2582586BBEA77501C3EB /* MainModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0050D4493CEB9E286E4B56 /* MainModuleViewController.swift */; };
-		1D09494C50CBDD9E64702EA3 /* TasksOnLocationModuleViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C717FA2DC54443C9D0D92C /* TasksOnLocationModuleViewController.storyboard */; };
-		2017BBE1D01363212DA6AEBB /* TaskForDayModuleModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9F92C90047AD1855779BA /* TaskForDayModuleModuleInput.swift */; };
+		0890DF613B11044198B7FA05 /* EndDayModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FDB6800D631C3666F1AE62 /* EndDayModuleOutput.swift */; };
+		0A31066609C9D22CA8A3D50F /* BeginDayViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2360858D95794CD4FBC4ABCA /* BeginDayViewInput.swift */; };
+		154939C4744852D58057A9E9 /* BeginDayModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567D17674793F293DE0C60B3 /* BeginDayModuleInput.swift */; };
+		16D58BD113886DA8C9B019F5 /* MainRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEE9574C3D01EE1203C520D /* MainRouterTests.swift */; };
+		1B4AB3C06008C41BF48D9E23 /* StopDayRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DFE035C4FF0D4A437E80B5 /* StopDayRouterTests.swift */; };
+		1C308043B81119BB3742BA83 /* StopDayViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B59EFBCF5D61FA5EAE98F6 /* StopDayViewTests.swift */; };
 		2622BE6C265103F3FBF9B6A5 /* MainModulePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66A789E507F930AB69C9500 /* MainModulePresenterTests.swift */; };
+		286E4FE642F0AB304C62D94E /* TaskOnLocationViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F96B53B1DDC59957245607 /* TaskOnLocationViewInput.swift */; };
 		28E27B2FF21722770F66D1E0 /* TasksOnLocationModuleModuleConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC95AC2B061AA3303E95D8E /* TasksOnLocationModuleModuleConfiguratorTests.swift */; };
-		2C9058CD76E7FAA6E04D2A8B /* StartMyDayModuleModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FEB3E9CDBC8FD4135356DB /* StartMyDayModuleModuleOutput.swift */; };
+		2E9BEED6D62A1AD6EDC417DB /* TaskOnDayRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA1023689AA5A9C1B9BEBA3 /* TaskOnDayRouterInput.swift */; };
 		2EB2DDD15DCEFB68890EB0F6 /* TaskForDayModuleRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0C342C6D4FAD7AD64128B1 /* TaskForDayModuleRouterTests.swift */; };
+		2FF073103EC332D1A16FD5E8 /* TaskOnDayViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DB9B7A4A8F277E01819A2B /* TaskOnDayViewTests.swift */; };
 		310005A9233F269F001F9F7E /* IndoorNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310005A8233F269F001F9F7E /* IndoorNavigationTests.swift */; };
 		3112C7F5233F2CB100C4D36F /* ModuleTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112C7F4233F2CB100C4D36F /* ModuleTransitionable.swift */; };
 		3112C7F6233F2EA800C4D36F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100058D233F269F001F9F7E /* AppDelegate.swift */; };
-		32BEEC84B959A1BF5D96A495 /* MainModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7906A0724DD4C71CC62E1F /* MainModulePresenter.swift */; };
-		3728B11995F909B54AAF0658 /* MainModuleViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A08B1D821F39691BE940C7 /* MainModuleViewController.storyboard */; };
-		3D2022FDBCAB80725014CDEC /* MainModuleViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63547D62567516E5A816E147 /* MainModuleViewOutput.swift */; };
-		41A0168DEC974AC0A5388E42 /* TasksOnLocationModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7C8C63B22A9F927D449418 /* TasksOnLocationModuleViewController.swift */; };
-		4B97D69359FC69ECA80B3926 /* TaskForDayModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3C29E94C2554AEDD5634D2 /* TaskForDayModulePresenter.swift */; };
+		31E45CE2233F4E35003A4572 /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E45CE1233F4E35003A4572 /* Beacon.swift */; };
+		31E45CE4233F4F6B003A4572 /* BeaconEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E45CE3233F4F6B003A4572 /* BeaconEntry.swift */; };
+		33B26634D46BB3E63B95EE36 /* MainModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067AAA5B46096C79CCBD47C4 /* MainModuleOutput.swift */; };
+		346B113430D9377903F0F503 /* TaskOnLocationPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B48605897025419FD0EE8D /* TaskOnLocationPresenterTests.swift */; };
+		387A638E2050955507482A87 /* MainModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3C2F849710714C35E1D42 /* MainModuleConfigurator.swift */; };
+		3B56E1DDC11956FA99E15930 /* EndDayViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C22F1F704D03172E6CC1D1F /* EndDayViewTests.swift */; };
+		3D77F749733743CA9E0D1C34 /* TaskOnDayViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F5E809227E7D10E33F4EB8 /* TaskOnDayViewInput.swift */; };
+		46D502A0F54A5CCD432B1BF8 /* BeginDayPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DE443942FBB9E16DEC5362 /* BeginDayPresenterTests.swift */; };
+		50953386F739B5DCD2B15AB8 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549419D4F9BFD40ECB0F2CAC /* MainPresenter.swift */; };
 		510903BB3F5106FEF71E7108 /* MainModuleRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5440697AB7B6429CAF356D87 /* MainModuleRouterTests.swift */; };
+		51930D5E54F038DA086086AC /* BeginDayRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620F41D4861E8AB6ED8B061E /* BeginDayRouter.swift */; };
+		535FC213E72132DF518442E2 /* EndDayViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF5F9323A1698991D01DBC8 /* EndDayViewController.storyboard */; };
 		564D398D546CF1E906E77F4F /* StartMyDayModuleViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBB0D5581BC19E4317E002D /* StartMyDayModuleViewTests.swift */; };
+		59B33D7EA0936461C622AF85 /* TaskOnLocationModuleConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A05AA962638BE254C579F2D /* TaskOnLocationModuleConfiguratorTests.swift */; };
+		59DCDDF1DEDF614939E773FB /* TaskOnDayModuleConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2C8D6854EFEF0430500F78 /* TaskOnDayModuleConfiguratorTests.swift */; };
+		5C4DC3D78C601AFFAE54A6F5 /* EndDayModuleConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2158EA5BB3DE374172ABAB /* EndDayModuleConfiguratorTests.swift */; };
+		5E63E0F022CAC4C2D01B0896 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A44B2A0817F1CADCDA879E9 /* MainRouter.swift */; };
 		5EE84C65DA9C0D36F318B8E9 /* MainModuleViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E56A1F3672878AE6E194002 /* MainModuleViewTests.swift */; };
-		61B1713CDF126C6200F6FB95 /* MainModuleRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4AC3C604B1FD7F68003EA /* MainModuleRouterInput.swift */; };
-		6B74047128632D0860AA7C0F /* MainModuleViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034CDB5044191E3C228AA8D0 /* MainModuleViewInput.swift */; };
-		72CB93FB11180C29BB948048 /* TasksOnLocationModuleViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E3B145B3975181C5A9EA4D /* TasksOnLocationModuleViewOutput.swift */; };
+		600AA5A87A50E7A543968BDE /* TaskOnDayViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3BC64C12A07C768ADE0D16C /* TaskOnDayViewController.storyboard */; };
+		60B685D4E36361EA3C8C4543 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E2B48F83F2D89CE99828C1 /* MainViewController.storyboard */; };
+		614CB15831B890C900DB3E72 /* MainRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DC7AC1FB38FB74BCD59AA1 /* MainRouterInput.swift */; };
+		666CFDA8558CAEDAA90A1956 /* TaskOnDayRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4E430991BAC4D48878B01E /* TaskOnDayRouterTests.swift */; };
+		68B131D5F5A5961146E69AB1 /* TaskOnLocationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB3BECA36C8845B094E47F5 /* TaskOnLocationPresenter.swift */; };
+		6E8E91A5B1C8F183C94C65F4 /* EndDayViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932E3418ACF57C506A615B59 /* EndDayViewInput.swift */; };
+		6F59D7910C4997938C6F3BBC /* BeginDayRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E74E1079A7F39AE33BBAABF /* BeginDayRouterTests.swift */; };
 		72FD716B44AA81446E60E8BE /* MainModuleModuleConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C732462A1543415710378 /* MainModuleModuleConfiguratorTests.swift */; };
-		76C66E18596C7B140DCABBF0 /* MainModuleModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A6E99C24B32651770F7721 /* MainModuleModuleConfigurator.swift */; };
+		73307AC10748357DE50618A4 /* StartDayRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890519040B60C3F21566B45A /* StartDayRouterTests.swift */; };
+		7753137ED297FBBE0421A4DF /* BeginDayModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EFA79DFD023E45D4A997AA /* BeginDayModuleConfigurator.swift */; };
+		7969647C4E31A32E0F8E3BE2 /* BeginDayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C26D6B4A9E738D08A2ABDB /* BeginDayPresenter.swift */; };
 		7991829F395137C0BDFFC547 /* StartMyDayModuleModuleConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847846FBF4246E4A8D7EDAA6 /* StartMyDayModuleModuleConfiguratorTests.swift */; };
-		7ED881523B87E4B9D5727529 /* TasksOnLocationModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF016040311FBA5D9762F8B /* TasksOnLocationModulePresenter.swift */; };
+		7CDF8D396E82F82B6FC60C2F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB8B1B96BBD2548CE04C4A4 /* MainViewController.swift */; };
 		80B0C82428E0A27B2648B96B /* StartMyDayModuleRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB194E5C9FBE1770CE072644 /* StartMyDayModuleRouterTests.swift */; };
-		8238A22465B24D5F06DB953E /* TasksOnLocationModuleViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A89FE2DD2F1069A84A73B3C /* TasksOnLocationModuleViewInput.swift */; };
-		8D60B112718A65F79DFF1620 /* TasksOnLocationModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8C00E5A35C2C1489F78A2 /* TasksOnLocationModuleRouter.swift */; };
-		8F26C1D78D47F0D1D28E57C0 /* StartMyDayModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4704EE3CF33BBB5EC279A1 /* StartMyDayModulePresenter.swift */; };
+		860E80182A0EF0BFE4E2B4B7 /* BeginDayViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D4B11FD0959A7348288ECA /* BeginDayViewOutput.swift */; };
+		8B8CEE24450C7E81208951DA /* TaskOnDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801EB44BBFA2D951CA45A61E /* TaskOnDayViewController.swift */; };
+		8EE1A5C82CC4327DD75014FF /* TaskOnLocationRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B7C938AD7B0B439AFD6075 /* TaskOnLocationRouterInput.swift */; };
+		901ACC0A0349B171233FCF59 /* EndDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A45F599EBC55BA3F324E2E /* EndDayViewController.swift */; };
+		91CCC17A492653657ED5381E /* TaskOnDayModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57172F9F1E072DCF14D7AF4 /* TaskOnDayModuleInput.swift */; };
+		93FD4AD527CC1DAC89BE7DD9 /* StopDayPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFA3AFEFC182189D686FAA2 /* StopDayPresenterTests.swift */; };
+		9775D9A730E0AE2E6C4D5ED6 /* TaskOnDayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5EE5200F21DD20EA15C8B4 /* TaskOnDayPresenter.swift */; };
 		9BFD32CAB3BE8A1917F97EBF /* MyTaskOnLocationModuleViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19BB5E7218840B4D0BFF86 /* MyTaskOnLocationModuleViewTests.swift */; };
-		9C3C198032421AACB91F3037 /* StartMyDayModuleModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6376662A6D998450BBEEF64E /* StartMyDayModuleModuleInput.swift */; };
-		9E4A2CAD4728738162A4021A /* MainModuleModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408260BBD6D27AF001176A4 /* MainModuleModuleInput.swift */; };
+		9C4A89D18B60B25445447ECE /* StartDayModuleConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD2DDD09C6C5BBE1586A62B /* StartDayModuleConfiguratorTests.swift */; };
+		A4CEC8D0802FCEC9DF6C1559 /* BeginDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5FDC0299D1360E0EE837EC /* BeginDayViewController.swift */; };
+		A6EF687ED6EE1A4D5028DCB1 /* MainPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC050C28961CF9DBA1B76C5C /* MainPresenterTests.swift */; };
 		AACE3FFE079F779CB54B5E3E /* TasksOnLocationModulePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE566EA59CF7FFA92631F94 /* TasksOnLocationModulePresenterTests.swift */; };
-		B14C863FBAFACF86220240DB /* TaskForDayModuleRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A944999091ECE13CB08F9F /* TaskForDayModuleRouterInput.swift */; };
+		AB6425CEF71C7CFC2AC2E581 /* EndDayViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEA23F9668241A808555B98 /* EndDayViewOutput.swift */; };
+		AD4DD038A40243FBFCD26AEA /* TaskOnLocationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6F40202719C3A94C6B48AB /* TaskOnLocationRouter.swift */; };
+		AD67FF2E9E6D078B8AF41C6A /* MainViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74130DC78A315BE58468E99F /* MainViewTests.swift */; };
+		ADCFBB00A5FE2E550D20DEE6 /* BeginDayModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9850B8075CBE18215BC78D7 /* BeginDayModuleOutput.swift */; };
+		AEFE55001DFEC6B86DD5C81D /* TaskOnLocationModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F350FB0CD416FB85F29EA9D /* TaskOnLocationModuleOutput.swift */; };
+		B07ED2659EF144052D649694 /* BeginDayViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13600CD8264EFBBED9185A5 /* BeginDayViewTests.swift */; };
+		B139FB75A00C16DF4D3BEA2F /* TaskOnLocationViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AB6EAC95516888739A1B4 /* TaskOnLocationViewOutput.swift */; };
+		B22C5173B8B9ED9BC99F99F3 /* MainViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C27982B17AB6EB641AB99E /* MainViewInput.swift */; };
+		B65C58A4EA308583CF5E1823 /* EndDayModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F67B600FF048440331409F9 /* EndDayModuleInput.swift */; };
+		B729242A1487468326B08B31 /* TaskOnLocationModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A68B8DF3DD05C9244B68AD /* TaskOnLocationModuleConfigurator.swift */; };
 		B872FA5A9D77DDE9E40BA581 /* MyTaskOnLocationModuleRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A892504D72161CF879B53802 /* MyTaskOnLocationModuleRouterTests.swift */; };
-		B91DB1702587E864053F0151 /* StartMyDayModuleViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34510AC3BC7BD5006453E524 /* StartMyDayModuleViewOutput.swift */; };
-		BD1E5B31416AFFFD2BE54F1B /* TaskForDayModuleModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5AEB35BC3AED2045961722 /* TaskForDayModuleModuleOutput.swift */; };
-		BE2667D51358E0B70C008823 /* TaskForDayModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC29BD3CF533F30018662D4 /* TaskForDayModuleRouter.swift */; };
-		C1BC846081B661D7B9CA7E49 /* TasksOnLocationModuleRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B2359934BD907B0A5A6ACF /* TasksOnLocationModuleRouterInput.swift */; };
-		C45011FF4C54D79116627BEE /* TaskForDayModuleModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83FFEED5EFA792977A54187 /* TaskForDayModuleModuleConfigurator.swift */; };
-		C9CFD8FA77B7D04FB65E95BB /* StartMyDayModuleViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06C8C307CE6CBCD107B2F2E /* StartMyDayModuleViewInput.swift */; };
+		BA04DCBEB34CBC3AEB3A5F9A /* StartDayPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3ABF268A70823FF6976F1B /* StartDayPresenterTests.swift */; };
+		BB25ADA422B17189DD400216 /* BeginDayRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67F2C04000D6763D3DC310B /* BeginDayRouterInput.swift */; };
+		BF66F9A6E41A52914776D75B /* MainModuleConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C97E3D93F2494ED1615B40 /* MainModuleConfiguratorTests.swift */; };
+		C4D879E2623119DC2A7A9C53 /* StopDayModuleConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C32AB4F73BA1751A381DF8 /* StopDayModuleConfiguratorTests.swift */; };
+		C52610E1D14928204F625DDF /* TaskOnLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF20924806EEFF993A772E0 /* TaskOnLocationViewController.swift */; };
+		C5C0D61541DF71B91BBC3AA6 /* MainModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB018294F4C81FE81E093603 /* MainModuleInput.swift */; };
+		C8EC28A9D1F38EA3D24D316F /* TaskOnDayModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA649696606AFC789E3C5B /* TaskOnDayModuleConfigurator.swift */; };
+		C9D2C2CCB6203FC40DE34619 /* TaskOnLocationViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C38F9718B8CF6CD703352F9 /* TaskOnLocationViewTests.swift */; };
 		CE3C287BE670E7FB285CE171 /* StartMyDayModulePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BD8DFC6313CF4789A864C0 /* StartMyDayModulePresenterTests.swift */; };
-		D16917A5DD2341A23C83A1CD /* StartMyDayModuleViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC3DC5464849E3923BBF4C3 /* StartMyDayModuleViewController.storyboard */; };
+		D1231E1DB60C10EAAFCDA308 /* TaskOnLocationRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D0AE1B9BD59B96817E3E9 /* TaskOnLocationRouterTests.swift */; };
+		D1859064F6B0B3830CE11647 /* StartDayViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF7FE895977BF86A2BE5E59 /* StartDayViewTests.swift */; };
+		D1972AE79066125C53A960E1 /* TaskOnLocationModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8101B7CA37D21304F592821 /* TaskOnLocationModuleInput.swift */; };
+		D3DAC24B3513A0C3D5FB537E /* TaskOnDayViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E575A9E0F8B0415BC2592287 /* TaskOnDayViewOutput.swift */; };
+		D8670EC90B06615ED436615F /* TaskOnDayPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7883C1918D44F0FB0FD06 /* TaskOnDayPresenterTests.swift */; };
+		D877A6BCD4960B7805FEF57D /* EndDayModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE95180BB5C9C7D15EF8917 /* EndDayModuleConfigurator.swift */; };
 		DAF60C5C3FF8CC189378126C /* TaskForDayModulePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DC85139970D2BAC548A0A9 /* TaskForDayModulePresenterTests.swift */; };
+		DC25ADDC8A138B4962859CBC /* EndDayPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6070C187CE8AA04526BDD1AF /* EndDayPresenterTests.swift */; };
 		DC7AC9E984BEEA4B28078144 /* Pods_IndoorNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D5A1B4695C80599353E572 /* Pods_IndoorNavigation.framework */; };
-		DDF9F1D5395B5AED0548103E /* StartMyDayModuleRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7869DCB9A5DAB0985EFF8C /* StartMyDayModuleRouterInput.swift */; };
-		E15F3BE5DE75276A381CEE99 /* TasksOnLocationModuleModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E66DC85A2567F0FE9BCEB94 /* TasksOnLocationModuleModuleInput.swift */; };
-		E6076399425D36D460E46D42 /* StartMyDayModuleModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB9FA734ECEFF53A5B032A8 /* StartMyDayModuleModuleConfigurator.swift */; };
-		E9794EE96D3869ACFFD82848 /* TasksOnLocationModuleModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE4C885734D7F4F3A11A805 /* TasksOnLocationModuleModuleOutput.swift */; };
-		EAEBDE59F6162170CD4473F1 /* MainModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E392608FA10897DFD250610C /* MainModuleRouter.swift */; };
+		E431AF4F22BA9131C84B6D31 /* EndDayRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2480187A798FEBF81A92B170 /* EndDayRouterTests.swift */; };
+		E468F525FC614EA96790CC4B /* TaskOnDayModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350BCB962C7AC448758502A3 /* TaskOnDayModuleOutput.swift */; };
+		EAB8B4C49A580E79558DEC55 /* TaskOnDayRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4109452208D152D2AD80F52C /* TaskOnDayRouter.swift */; };
+		EDF759C0FB4E034E12F403F2 /* EndDayRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF33F11DD3351CB9D05BB28 /* EndDayRouterInput.swift */; };
+		F05F1E0115A6780C9C020EA7 /* MainViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A85BAE2C6E26E8DCA8054A8 /* MainViewOutput.swift */; };
+		F12A051B3BD1C8D4BD181E4A /* EndDayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0D90025158B913B2874DF /* EndDayPresenter.swift */; };
+		F2CA3F4CCDA04E776DBACC66 /* BeginDayViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E566A98ED03B59851649C88 /* BeginDayViewController.storyboard */; };
 		F4722440CF52C0E8DCB75EDD /* TasksOnLocationModuleRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1EAC6A7AADD5FF661AE812 /* TasksOnLocationModuleRouterTests.swift */; };
-		F4B3FD677505D856EA5E68CB /* StartMyDayModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2323FC3CED8F2257DDDE6D /* StartMyDayModuleViewController.swift */; };
 		F520A450FC6EF3C6726C5B18 /* TaskForDayModuleViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1560BFE82825B9C961AD3A9 /* TaskForDayModuleViewTests.swift */; };
-		F6AF3B28EE8A58E0A533EABD /* TaskForDayModuleViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5340539702C50E6AA1B217B1 /* TaskForDayModuleViewController.storyboard */; };
+		F575BE65AD0E727E701262BC /* BeginDayModuleConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE46CEB6CA27E2867A977F4 /* BeginDayModuleConfiguratorTests.swift */; };
 		F769688E395766905E1230A3 /* TasksOnLocationModuleViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD1CAD2BBF99F2F4D53AD6 /* TasksOnLocationModuleViewTests.swift */; };
 		FA6FB4B9952DF6561C548739 /* MyTaskOnLocationModulePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A75BE9BC55F4B02A39B2A5 /* MyTaskOnLocationModulePresenterTests.swift */; };
-		FE6D7A2973A4E21286EA3EEA /* MainModuleModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF11684361C7FCD184D2DD /* MainModuleModuleOutput.swift */; };
-		FE839439C2B9BC873DD4A664 /* TaskForDayModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9927A2D2765E6BF390E8945B /* TaskForDayModuleViewController.swift */; };
+		FACB33367E63E0066915DA84 /* EndDayRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53394FA485A32A4BA4BCCE4C /* EndDayRouter.swift */; };
+		FD304DC996A06973B5003999 /* TaskOnLocationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01D6E4456D797680C5FCE884 /* TaskOnLocationViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,24 +124,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		034CDB5044191E3C228AA8D0 /* MainModuleViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleViewInput.swift; sourceTree = "<group>"; };
+		01D6E4456D797680C5FCE884 /* TaskOnLocationViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = TaskOnLocationViewController.storyboard; sourceTree = "<group>"; };
+		049D0AE1B9BD59B96817E3E9 /* TaskOnLocationRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnLocationRouterTests.swift; sourceTree = "<group>"; };
+		067AAA5B46096C79CCBD47C4 /* MainModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleOutput.swift; sourceTree = "<group>"; };
+		07FDB6800D631C3666F1AE62 /* EndDayModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EndDayModuleOutput.swift; sourceTree = "<group>"; };
 		0B9FFCD5989AF3097BD774CE /* Pods-IndoorNavigation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoorNavigation.release.xcconfig"; path = "Target Support Files/Pods-IndoorNavigation/Pods-IndoorNavigation.release.xcconfig"; sourceTree = "<group>"; };
-		0CC3DC5464849E3923BBF4C3 /* StartMyDayModuleViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = StartMyDayModuleViewController.storyboard; sourceTree = "<group>"; };
-		10953B67BA106BF13FF2EE0D /* TasksOnLocationModuleModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TasksOnLocationModuleModuleConfigurator.swift; sourceTree = "<group>"; };
+		0F350FB0CD416FB85F29EA9D /* TaskOnLocationModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnLocationModuleOutput.swift; sourceTree = "<group>"; };
 		13350D9FAC6CF6C063B66275 /* MyTaskOnLocationModuleModuleConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyTaskOnLocationModuleModuleConfiguratorTests.swift; sourceTree = "<group>"; };
 		13D5A1B4695C80599353E572 /* Pods_IndoorNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IndoorNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C97E3D93F2494ED1615B40 /* MainModuleConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleConfiguratorTests.swift; sourceTree = "<group>"; };
 		184C732462A1543415710378 /* MainModuleModuleConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleModuleConfiguratorTests.swift; sourceTree = "<group>"; };
-		1C4704EE3CF33BBB5EC279A1 /* StartMyDayModulePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartMyDayModulePresenter.swift; sourceTree = "<group>"; };
-		2A7869DCB9A5DAB0985EFF8C /* StartMyDayModuleRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartMyDayModuleRouterInput.swift; sourceTree = "<group>"; };
-		2CCF11684361C7FCD184D2DD /* MainModuleModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleModuleOutput.swift; sourceTree = "<group>"; };
-		2E0050D4493CEB9E286E4B56 /* MainModuleViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleViewController.swift; sourceTree = "<group>"; };
+		1A44B2A0817F1CADCDA879E9 /* MainRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		1A85BAE2C6E26E8DCA8054A8 /* MainViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewOutput.swift; sourceTree = "<group>"; };
+		1AF7883C1918D44F0FB0FD06 /* TaskOnDayPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnDayPresenterTests.swift; sourceTree = "<group>"; };
+		1BDA649696606AFC789E3C5B /* TaskOnDayModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnDayModuleConfigurator.swift; sourceTree = "<group>"; };
+		1CD3C2F849710714C35E1D42 /* MainModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleConfigurator.swift; sourceTree = "<group>"; };
+		2360858D95794CD4FBC4ABCA /* BeginDayViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BeginDayViewInput.swift; sourceTree = "<group>"; };
+		2480187A798FEBF81A92B170 /* EndDayRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EndDayRouterTests.swift; sourceTree = "<group>"; };
+		2CEA23F9668241A808555B98 /* EndDayViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EndDayViewOutput.swift; sourceTree = "<group>"; };
+		2D2C8D6854EFEF0430500F78 /* TaskOnDayModuleConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnDayModuleConfiguratorTests.swift; sourceTree = "<group>"; };
+		2E6F40202719C3A94C6B48AB /* TaskOnLocationRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnLocationRouter.swift; sourceTree = "<group>"; };
 		2F0C342C6D4FAD7AD64128B1 /* TaskForDayModuleRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskForDayModuleRouterTests.swift; sourceTree = "<group>"; };
+		2FFA3AFEFC182189D686FAA2 /* StopDayPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StopDayPresenterTests.swift; sourceTree = "<group>"; };
 		3100055F233F269F001F9F7E /* IndoorNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndoorNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31000563233F269F001F9F7E /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fastlane; path = ../../fastlane; sourceTree = "<group>"; };
 		31000567233F269F001F9F7E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../../.gitignore; sourceTree = "<group>"; };
 		3100056A233F269F001F9F7E /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		3100056C233F269F001F9F7E /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		3100056E233F269F001F9F7E /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		31000571233F269F001F9F7E /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		31000573233F269F001F9F7E /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		31000575233F269F001F9F7E /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
@@ -132,60 +181,90 @@
 		310005AC233F269F001F9F7E /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		310005AD233F269F001F9F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3112C7F1233F2B4200C4D36F /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = SOURCE_ROOT; };
-		3112C7F2233F2B8700C4D36F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		3112C7F2233F2B8700C4D36F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3112C7F3233F2BB200C4D36F /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile; sourceTree = SOURCE_ROOT; };
 		3112C7F4233F2CB100C4D36F /* ModuleTransitionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleTransitionable.swift; sourceTree = "<group>"; };
-		34510AC3BC7BD5006453E524 /* StartMyDayModuleViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartMyDayModuleViewOutput.swift; sourceTree = "<group>"; };
-		3A89FE2DD2F1069A84A73B3C /* TasksOnLocationModuleViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TasksOnLocationModuleViewInput.swift; sourceTree = "<group>"; };
+		31E45CE1233F4E35003A4572 /* Beacon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
+		31E45CE3233F4F6B003A4572 /* BeaconEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconEntry.swift; sourceTree = "<group>"; };
+		350BCB962C7AC448758502A3 /* TaskOnDayModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnDayModuleOutput.swift; sourceTree = "<group>"; };
+		39DFE035C4FF0D4A437E80B5 /* StopDayRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StopDayRouterTests.swift; sourceTree = "<group>"; };
 		3CBB0D5581BC19E4317E002D /* StartMyDayModuleViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartMyDayModuleViewTests.swift; sourceTree = "<group>"; };
-		41A8C00E5A35C2C1489F78A2 /* TasksOnLocationModuleRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TasksOnLocationModuleRouter.swift; sourceTree = "<group>"; };
-		4B5AEB35BC3AED2045961722 /* TaskForDayModuleModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskForDayModuleModuleOutput.swift; sourceTree = "<group>"; };
+		3E74E1079A7F39AE33BBAABF /* BeginDayRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BeginDayRouterTests.swift; sourceTree = "<group>"; };
+		4109452208D152D2AD80F52C /* TaskOnDayRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnDayRouter.swift; sourceTree = "<group>"; };
+		4AE46CEB6CA27E2867A977F4 /* BeginDayModuleConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BeginDayModuleConfiguratorTests.swift; sourceTree = "<group>"; };
+		4C38F9718B8CF6CD703352F9 /* TaskOnLocationViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnLocationViewTests.swift; sourceTree = "<group>"; };
 		4E56A1F3672878AE6E194002 /* MainModuleViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleViewTests.swift; sourceTree = "<group>"; };
 		4EFC7E7D6B9D1C1ACD2064C1 /* Pods-IndoorNavigation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoorNavigation.debug.xcconfig"; path = "Target Support Files/Pods-IndoorNavigation/Pods-IndoorNavigation.debug.xcconfig"; sourceTree = "<group>"; };
-		5340539702C50E6AA1B217B1 /* TaskForDayModuleViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = TaskForDayModuleViewController.storyboard; sourceTree = "<group>"; };
+		53394FA485A32A4BA4BCCE4C /* EndDayRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EndDayRouter.swift; sourceTree = "<group>"; };
 		5440697AB7B6429CAF356D87 /* MainModuleRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleRouterTests.swift; sourceTree = "<group>"; };
-		5AE4C885734D7F4F3A11A805 /* TasksOnLocationModuleModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TasksOnLocationModuleModuleOutput.swift; sourceTree = "<group>"; };
+		549419D4F9BFD40ECB0F2CAC /* MainPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		567D17674793F293DE0C60B3 /* BeginDayModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BeginDayModuleInput.swift; sourceTree = "<group>"; };
+		5A05AA962638BE254C579F2D /* TaskOnLocationModuleConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnLocationModuleConfiguratorTests.swift; sourceTree = "<group>"; };
+		5CC0D90025158B913B2874DF /* EndDayPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EndDayPresenter.swift; sourceTree = "<group>"; };
 		5CE566EA59CF7FFA92631F94 /* TasksOnLocationModulePresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TasksOnLocationModulePresenterTests.swift; sourceTree = "<group>"; };
-		5D2323FC3CED8F2257DDDE6D /* StartMyDayModuleViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartMyDayModuleViewController.swift; sourceTree = "<group>"; };
-		63547D62567516E5A816E147 /* MainModuleViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleViewOutput.swift; sourceTree = "<group>"; };
-		6376662A6D998450BBEEF64E /* StartMyDayModuleModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartMyDayModuleModuleInput.swift; sourceTree = "<group>"; };
-		6480E2A7093B9025F66D2C22 /* TaskForDayModuleViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskForDayModuleViewOutput.swift; sourceTree = "<group>"; };
+		6070C187CE8AA04526BDD1AF /* EndDayPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EndDayPresenterTests.swift; sourceTree = "<group>"; };
+		620F41D4861E8AB6ED8B061E /* BeginDayRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BeginDayRouter.swift; sourceTree = "<group>"; };
+		66B48605897025419FD0EE8D /* TaskOnLocationPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnLocationPresenterTests.swift; sourceTree = "<group>"; };
 		6D19BB5E7218840B4D0BFF86 /* MyTaskOnLocationModuleViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyTaskOnLocationModuleViewTests.swift; sourceTree = "<group>"; };
-		6FF016040311FBA5D9762F8B /* TasksOnLocationModulePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TasksOnLocationModulePresenter.swift; sourceTree = "<group>"; };
-		76B2359934BD907B0A5A6ACF /* TasksOnLocationModuleRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TasksOnLocationModuleRouterInput.swift; sourceTree = "<group>"; };
-		7C7906A0724DD4C71CC62E1F /* MainModulePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModulePresenter.swift; sourceTree = "<group>"; };
-		7E66DC85A2567F0FE9BCEB94 /* TasksOnLocationModuleModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TasksOnLocationModuleModuleInput.swift; sourceTree = "<group>"; };
-		80A944999091ECE13CB08F9F /* TaskForDayModuleRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskForDayModuleRouterInput.swift; sourceTree = "<group>"; };
+		74130DC78A315BE58468E99F /* MainViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewTests.swift; sourceTree = "<group>"; };
+		7AF33F11DD3351CB9D05BB28 /* EndDayRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EndDayRouterInput.swift; sourceTree = "<group>"; };
+		7C22F1F704D03172E6CC1D1F /* EndDayViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EndDayViewTests.swift; sourceTree = "<group>"; };
+		7FF7FE895977BF86A2BE5E59 /* StartDayViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartDayViewTests.swift; sourceTree = "<group>"; };
+		801EB44BBFA2D951CA45A61E /* TaskOnDayViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnDayViewController.swift; sourceTree = "<group>"; };
 		847846FBF4246E4A8D7EDAA6 /* StartMyDayModuleModuleConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartMyDayModuleModuleConfiguratorTests.swift; sourceTree = "<group>"; };
-		84B4AC3C604B1FD7F68003EA /* MainModuleRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleRouterInput.swift; sourceTree = "<group>"; };
-		84D9F92C90047AD1855779BA /* TaskForDayModuleModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskForDayModuleModuleInput.swift; sourceTree = "<group>"; };
 		8703FF6C0EF146DD3D038AA0 /* TaskForDayModuleModuleConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskForDayModuleModuleConfiguratorTests.swift; sourceTree = "<group>"; };
-		88C717FA2DC54443C9D0D92C /* TasksOnLocationModuleViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = TasksOnLocationModuleViewController.storyboard; sourceTree = "<group>"; };
-		89E3B145B3975181C5A9EA4D /* TasksOnLocationModuleViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TasksOnLocationModuleViewOutput.swift; sourceTree = "<group>"; };
-		91DD87A7FFE7416599962B6C /* StartMyDayModuleRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartMyDayModuleRouter.swift; sourceTree = "<group>"; };
-		94A6E99C24B32651770F7721 /* MainModuleModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleModuleConfigurator.swift; sourceTree = "<group>"; };
-		9927A2D2765E6BF390E8945B /* TaskForDayModuleViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskForDayModuleViewController.swift; sourceTree = "<group>"; };
-		A1A08B1D821F39691BE940C7 /* MainModuleViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = MainModuleViewController.storyboard; sourceTree = "<group>"; };
-		A83FFEED5EFA792977A54187 /* TaskForDayModuleModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskForDayModuleModuleConfigurator.swift; sourceTree = "<group>"; };
+		890519040B60C3F21566B45A /* StartDayRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartDayRouterTests.swift; sourceTree = "<group>"; };
+		8BF20924806EEFF993A772E0 /* TaskOnLocationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnLocationViewController.swift; sourceTree = "<group>"; };
+		8E566A98ED03B59851649C88 /* BeginDayViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = BeginDayViewController.storyboard; sourceTree = "<group>"; };
+		8F5EE5200F21DD20EA15C8B4 /* TaskOnDayPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnDayPresenter.swift; sourceTree = "<group>"; };
+		8F67B600FF048440331409F9 /* EndDayModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EndDayModuleInput.swift; sourceTree = "<group>"; };
+		91EFA79DFD023E45D4A997AA /* BeginDayModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BeginDayModuleConfigurator.swift; sourceTree = "<group>"; };
+		932E3418ACF57C506A615B59 /* EndDayViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EndDayViewInput.swift; sourceTree = "<group>"; };
+		9BE95180BB5C9C7D15EF8917 /* EndDayModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EndDayModuleConfigurator.swift; sourceTree = "<group>"; };
+		9C4E430991BAC4D48878B01E /* TaskOnDayRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnDayRouterTests.swift; sourceTree = "<group>"; };
+		9D2158EA5BB3DE374172ABAB /* EndDayModuleConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EndDayModuleConfiguratorTests.swift; sourceTree = "<group>"; };
+		A4DE443942FBB9E16DEC5362 /* BeginDayPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BeginDayPresenterTests.swift; sourceTree = "<group>"; };
 		A892504D72161CF879B53802 /* MyTaskOnLocationModuleRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyTaskOnLocationModuleRouterTests.swift; sourceTree = "<group>"; };
 		AAC95AC2B061AA3303E95D8E /* TasksOnLocationModuleModuleConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TasksOnLocationModuleModuleConfiguratorTests.swift; sourceTree = "<group>"; };
 		ABFD1CAD2BBF99F2F4D53AD6 /* TasksOnLocationModuleViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TasksOnLocationModuleViewTests.swift; sourceTree = "<group>"; };
-		B06C8C307CE6CBCD107B2F2E /* StartMyDayModuleViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartMyDayModuleViewInput.swift; sourceTree = "<group>"; };
+		AC050C28961CF9DBA1B76C5C /* MainPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainPresenterTests.swift; sourceTree = "<group>"; };
+		ADEE9574C3D01EE1203C520D /* MainRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainRouterTests.swift; sourceTree = "<group>"; };
 		B1560BFE82825B9C961AD3A9 /* TaskForDayModuleViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskForDayModuleViewTests.swift; sourceTree = "<group>"; };
-		BCB9FA734ECEFF53A5B032A8 /* StartMyDayModuleModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartMyDayModuleModuleConfigurator.swift; sourceTree = "<group>"; };
-		CDC29BD3CF533F30018662D4 /* TaskForDayModuleRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskForDayModuleRouter.swift; sourceTree = "<group>"; };
-		D408260BBD6D27AF001176A4 /* MainModuleModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleModuleInput.swift; sourceTree = "<group>"; };
+		B1DB9B7A4A8F277E01819A2B /* TaskOnDayViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnDayViewTests.swift; sourceTree = "<group>"; };
+		B3BC64C12A07C768ADE0D16C /* TaskOnDayViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = TaskOnDayViewController.storyboard; sourceTree = "<group>"; };
+		B5C27982B17AB6EB641AB99E /* MainViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewInput.swift; sourceTree = "<group>"; };
+		B67F2C04000D6763D3DC310B /* BeginDayRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BeginDayRouterInput.swift; sourceTree = "<group>"; };
+		B7E2B48F83F2D89CE99828C1 /* MainViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = MainViewController.storyboard; sourceTree = "<group>"; };
+		B7F5E809227E7D10E33F4EB8 /* TaskOnDayViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnDayViewInput.swift; sourceTree = "<group>"; };
+		B8101B7CA37D21304F592821 /* TaskOnLocationModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnLocationModuleInput.swift; sourceTree = "<group>"; };
+		BAA1023689AA5A9C1B9BEBA3 /* TaskOnDayRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnDayRouterInput.swift; sourceTree = "<group>"; };
+		C0A45F599EBC55BA3F324E2E /* EndDayViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EndDayViewController.swift; sourceTree = "<group>"; };
+		C5D4B11FD0959A7348288ECA /* BeginDayViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BeginDayViewOutput.swift; sourceTree = "<group>"; };
+		C7A68B8DF3DD05C9244B68AD /* TaskOnLocationModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnLocationModuleConfigurator.swift; sourceTree = "<group>"; };
+		C9850B8075CBE18215BC78D7 /* BeginDayModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BeginDayModuleOutput.swift; sourceTree = "<group>"; };
+		D13600CD8264EFBBED9185A5 /* BeginDayViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BeginDayViewTests.swift; sourceTree = "<group>"; };
+		D1B59EFBCF5D61FA5EAE98F6 /* StopDayViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StopDayViewTests.swift; sourceTree = "<group>"; };
 		D5BD8DFC6313CF4789A864C0 /* StartMyDayModulePresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartMyDayModulePresenterTests.swift; sourceTree = "<group>"; };
 		D66A789E507F930AB69C9500 /* MainModulePresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModulePresenterTests.swift; sourceTree = "<group>"; };
 		D6DC85139970D2BAC548A0A9 /* TaskForDayModulePresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskForDayModulePresenterTests.swift; sourceTree = "<group>"; };
+		D7B7C938AD7B0B439AFD6075 /* TaskOnLocationRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnLocationRouterInput.swift; sourceTree = "<group>"; };
+		D7C32AB4F73BA1751A381DF8 /* StopDayModuleConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StopDayModuleConfiguratorTests.swift; sourceTree = "<group>"; };
 		DA1EAC6A7AADD5FF661AE812 /* TasksOnLocationModuleRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TasksOnLocationModuleRouterTests.swift; sourceTree = "<group>"; };
-		DF3C29E94C2554AEDD5634D2 /* TaskForDayModulePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskForDayModulePresenter.swift; sourceTree = "<group>"; };
-		E392608FA10897DFD250610C /* MainModuleRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleRouter.swift; sourceTree = "<group>"; };
+		DC5FDC0299D1360E0EE837EC /* BeginDayViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BeginDayViewController.swift; sourceTree = "<group>"; };
+		DDB3BECA36C8845B094E47F5 /* TaskOnLocationPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnLocationPresenter.swift; sourceTree = "<group>"; };
+		DE3ABF268A70823FF6976F1B /* StartDayPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartDayPresenterTests.swift; sourceTree = "<group>"; };
+		E575A9E0F8B0415BC2592287 /* TaskOnDayViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnDayViewOutput.swift; sourceTree = "<group>"; };
+		E6C26D6B4A9E738D08A2ABDB /* BeginDayPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BeginDayPresenter.swift; sourceTree = "<group>"; };
 		E8A75BE9BC55F4B02A39B2A5 /* MyTaskOnLocationModulePresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyTaskOnLocationModulePresenterTests.swift; sourceTree = "<group>"; };
-		F9FEB3E9CDBC8FD4135356DB /* StartMyDayModuleModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartMyDayModuleModuleOutput.swift; sourceTree = "<group>"; };
+		E8F96B53B1DDC59957245607 /* TaskOnLocationViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnLocationViewInput.swift; sourceTree = "<group>"; };
+		EB018294F4C81FE81E093603 /* MainModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleInput.swift; sourceTree = "<group>"; };
+		EDD2DDD09C6C5BBE1586A62B /* StartDayModuleConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartDayModuleConfiguratorTests.swift; sourceTree = "<group>"; };
+		EFB8B1B96BBD2548CE04C4A4 /* MainViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F4DC7AC1FB38FB74BCD59AA1 /* MainRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainRouterInput.swift; sourceTree = "<group>"; };
+		F57172F9F1E072DCF14D7AF4 /* TaskOnDayModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnDayModuleInput.swift; sourceTree = "<group>"; };
+		FA0AB6EAC95516888739A1B4 /* TaskOnLocationViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnLocationViewOutput.swift; sourceTree = "<group>"; };
 		FB194E5C9FBE1770CE072644 /* StartMyDayModuleRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartMyDayModuleRouterTests.swift; sourceTree = "<group>"; };
-		FE7C8C63B22A9F927D449418 /* TasksOnLocationModuleViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TasksOnLocationModuleViewController.swift; sourceTree = "<group>"; };
-		FF4AFB734C8C1C51F77FBE60 /* TaskForDayModuleViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskForDayModuleViewInput.swift; sourceTree = "<group>"; };
+		FEF5F9323A1698991D01DBC8 /* EndDayViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = EndDayViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +294,32 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
+		014B84E23A82FEC568958A3C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				049D0AE1B9BD59B96817E3E9 /* TaskOnLocationRouterTests.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0BEF27990A72F45F3D65E0DC /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				5A05AA962638BE254C579F2D /* TaskOnLocationModuleConfiguratorTests.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		0CC21E520B0EF300D89E2A4E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8F5EE5200F21DD20EA15C8B4 /* TaskOnDayPresenter.swift */,
+				F57172F9F1E072DCF14D7AF4 /* TaskOnDayModuleInput.swift */,
+				350BCB962C7AC448758502A3 /* TaskOnDayModuleOutput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		0D66AE42C03B772861BEF952 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,12 +328,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0EBC10F1B17B3B2DF713C166 /* Configurator */ = {
+		0EC605389A674396F7D1B121 /* BeginDay */ = {
 			isa = PBXGroup;
 			children = (
-				BCB9FA734ECEFF53A5B032A8 /* StartMyDayModuleModuleConfigurator.swift */,
+				D597CEF8063AD51931ECC2B5 /* Configurator */,
+				98DF4F37E6B9A4C525DBBFF5 /* Router */,
+				DC34C31BE175E917072434B3 /* Presenter */,
+				1762FD859A44F09A64AB54EA /* View */,
 			);
-			path = Configurator;
+			path = BeginDay;
 			sourceTree = "<group>";
 		};
 		12ADF8476088AF741D074DDE /* View */ = {
@@ -247,19 +355,46 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
-		188E66E50A48C2104E21E4B9 /* Router */ = {
+		1762FD859A44F09A64AB54EA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				91DD87A7FFE7416599962B6C /* StartMyDayModuleRouter.swift */,
-				2A7869DCB9A5DAB0985EFF8C /* StartMyDayModuleRouterInput.swift */,
+				DC5FDC0299D1360E0EE837EC /* BeginDayViewController.swift */,
+				8E566A98ED03B59851649C88 /* BeginDayViewController.storyboard */,
+				2360858D95794CD4FBC4ABCA /* BeginDayViewInput.swift */,
+				C5D4B11FD0959A7348288ECA /* BeginDayViewOutput.swift */,
 			);
-			path = Router;
+			path = View;
+			sourceTree = "<group>";
+		};
+		18AF874F44B35A5C6C6355B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1DB9B7A4A8F277E01819A2B /* TaskOnDayViewTests.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		190E7C27DE5C2A4034015B48 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				9D2158EA5BB3DE374172ABAB /* EndDayModuleConfiguratorTests.swift */,
+			);
+			path = Configurator;
 			sourceTree = "<group>";
 		};
 		1C17A3F6DBEFD92F924EFD99 /* Router */ = {
 			isa = PBXGroup;
 			children = (
 				5440697AB7B6429CAF356D87 /* MainModuleRouterTests.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1DCE42892701BBBFD001EA82 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				2E6F40202719C3A94C6B48AB /* TaskOnLocationRouter.swift */,
+				D7B7C938AD7B0B439AFD6075 /* TaskOnLocationRouterInput.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -272,36 +407,12 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
-		1F26003AE1732EF4B98C4D37 /* MainModule */ = {
+		22A135241F6A039C3EBE2275 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				627528B2696EB440EAEFD08B /* Configurator */,
-				A321D96FF5A8864037FB4902 /* Router */,
-				AA8D05E4CFB6452E4CCE2A4F /* Presenter */,
-				242E60E0B9B45F1CC6B2EE5A /* View */,
-			);
-			path = MainModule;
-			sourceTree = "<group>";
-		};
-		23E532E772FDBADB66B67CD2 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				1C4704EE3CF33BBB5EC279A1 /* StartMyDayModulePresenter.swift */,
-				6376662A6D998450BBEEF64E /* StartMyDayModuleModuleInput.swift */,
-				F9FEB3E9CDBC8FD4135356DB /* StartMyDayModuleModuleOutput.swift */,
+				1AF7883C1918D44F0FB0FD06 /* TaskOnDayPresenterTests.swift */,
 			);
 			path = Presenter;
-			sourceTree = "<group>";
-		};
-		242E60E0B9B45F1CC6B2EE5A /* View */ = {
-			isa = PBXGroup;
-			children = (
-				2E0050D4493CEB9E286E4B56 /* MainModuleViewController.swift */,
-				A1A08B1D821F39691BE940C7 /* MainModuleViewController.storyboard */,
-				034CDB5044191E3C228AA8D0 /* MainModuleViewInput.swift */,
-				63547D62567516E5A816E147 /* MainModuleViewOutput.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		29A7AF62D3EBF11A20E91A3C /* View */ = {
@@ -310,6 +421,34 @@
 				6D19BB5E7218840B4D0BFF86 /* MyTaskOnLocationModuleViewTests.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		2A3C94B2A0DD59350C359647 /* EndDay */ = {
+			isa = PBXGroup;
+			children = (
+				190E7C27DE5C2A4034015B48 /* Configurator */,
+				42A355A5132FB6FA0733BEA3 /* Router */,
+				F77F1938D21F4C23B92F3DD3 /* Presenter */,
+				5E59190B42F6A0544914CFA1 /* View */,
+			);
+			path = EndDay;
+			sourceTree = "<group>";
+		};
+		2B161929CEE29377CAED13AB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				4109452208D152D2AD80F52C /* TaskOnDayRouter.swift */,
+				BAA1023689AA5A9C1B9BEBA3 /* TaskOnDayRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		2B68BB1C18E1F66E8D2452F4 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				AC050C28961CF9DBA1B76C5C /* MainPresenterTests.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		2F0CA8E3E03051BC3AB5572E /* MainModule */ = {
@@ -321,6 +460,16 @@
 				12ADF8476088AF741D074DDE /* View */,
 			);
 			path = MainModule;
+			sourceTree = "<group>";
+		};
+		30F054DBCDA41A81936CB8D4 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DDB3BECA36C8845B094E47F5 /* TaskOnLocationPresenter.swift */,
+				B8101B7CA37D21304F592821 /* TaskOnLocationModuleInput.swift */,
+				0F350FB0CD416FB85F29EA9D /* TaskOnLocationModuleOutput.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		31000554233F269F001F9F7E = {
@@ -395,11 +544,11 @@
 		3100056D233F269F001F9F7E /* User Stories */ = {
 			isa = PBXGroup;
 			children = (
-				3100056E233F269F001F9F7E /* .gitkeep */,
-				1F26003AE1732EF4B98C4D37 /* MainModule */,
-				798BAE4AF52A35D2DE4F6A69 /* StartMyDayModule */,
-				C09E79FB7557740A7D7FFC5A /* TaskForDayModule */,
-				957280AFCA62063BD73C50A8 /* TasksOnLocationModule */,
+				62C8ADC9F67475F58CFC0E8A /* Main */,
+				8D8D2B93812A6C48C140A332 /* TaskOnLocation */,
+				AC9EDFF3D1FB7CD21409C281 /* TaskOnDay */,
+				0EC605389A674396F7D1B121 /* BeginDay */,
+				8207E3BDE6702D15F7BCB6B2 /* EndDay */,
 			);
 			path = "User Stories";
 			sourceTree = "<group>";
@@ -465,6 +614,7 @@
 			isa = PBXGroup;
 			children = (
 				3100057A233F269F001F9F7E /* .gitkeep */,
+				31E45CE1233F4E35003A4572 /* Beacon.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -473,6 +623,7 @@
 			isa = PBXGroup;
 			children = (
 				3100057C233F269F001F9F7E /* .gitkeep */,
+				31E45CE3233F4F6B003A4572 /* BeaconEntry.swift */,
 			);
 			path = Entry;
 			sourceTree = "<group>";
@@ -559,6 +710,37 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
+		31569BEBE2E48B8B2C5FC675 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				1A44B2A0817F1CADCDA879E9 /* MainRouter.swift */,
+				F4DC7AC1FB38FB74BCD59AA1 /* MainRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		337DF132D1812E024BDF0382 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0A45F599EBC55BA3F324E2E /* EndDayViewController.swift */,
+				FEF5F9323A1698991D01DBC8 /* EndDayViewController.storyboard */,
+				932E3418ACF57C506A615B59 /* EndDayViewInput.swift */,
+				2CEA23F9668241A808555B98 /* EndDayViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		369407BE457BA82EF730F691 /* TaskOnDay */ = {
+			isa = PBXGroup;
+			children = (
+				54F87B27BC2ED34C50A529AA /* Configurator */,
+				FBD89F16F3B46C858406EF7E /* Router */,
+				22A135241F6A039C3EBE2275 /* Presenter */,
+				18AF874F44B35A5C6C6355B6 /* View */,
+			);
+			path = TaskOnDay;
+			sourceTree = "<group>";
+		};
 		37467B9882F2A07EB746FE35 /* Router */ = {
 			isa = PBXGroup;
 			children = (
@@ -567,12 +749,12 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
-		3CBED8F3A990BF43AD445D3C /* Configurator */ = {
+		383F97EFA649A5CDB80FAFB5 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				10953B67BA106BF13FF2EE0D /* TasksOnLocationModuleModuleConfigurator.swift */,
+				890519040B60C3F21566B45A /* StartDayRouterTests.swift */,
 			);
-			path = Configurator;
+			path = Router;
 			sourceTree = "<group>";
 		};
 		3D56560B95019FE9DD03125C /* View */ = {
@@ -581,6 +763,38 @@
 				3CBB0D5581BC19E4317E002D /* StartMyDayModuleViewTests.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		41C0C0F35DFB9E4B5EE4DF16 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3E74E1079A7F39AE33BBAABF /* BeginDayRouterTests.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		42A355A5132FB6FA0733BEA3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				2480187A798FEBF81A92B170 /* EndDayRouterTests.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		45B4351A2FB1F62B98E88E2D /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				4AE46CEB6CA27E2867A977F4 /* BeginDayModuleConfiguratorTests.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		48F32B0458003481BC690A8E /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				EDD2DDD09C6C5BBE1586A62B /* StartDayModuleConfiguratorTests.swift */,
+			);
+			path = Configurator;
 			sourceTree = "<group>";
 		};
 		4918098421953ED56932B883 /* Pods */ = {
@@ -600,17 +814,56 @@
 				F10A89C1CAB1262B84290B32 /* MyTaskOnLocationModule */,
 				767EE068F46C56E52212FDB3 /* TaskForDayModule */,
 				91E76A0382DE21245B32C564 /* TasksOnLocationModule */,
+				658B53B46D3750E942562BAA /* TaskOnLocation */,
+				369407BE457BA82EF730F691 /* TaskOnDay */,
+				D054E666998EE35B3CF19054 /* StartDay */,
+				803651303B2F2B4D82C1F38D /* StopDay */,
+				858B532E0C566D94F0A80686 /* BeginDay */,
+				2A3C94B2A0DD59350C359647 /* EndDay */,
+				FDDE8E3B966981222C8D45AB /* Main */,
 			);
 			path = "User Stories";
 			sourceTree = "<group>";
 		};
-		53C732618E46216D2C0C06EE /* View */ = {
+		4DE0DFD5FBA44D376BE56BE4 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				5D2323FC3CED8F2257DDDE6D /* StartMyDayModuleViewController.swift */,
-				0CC3DC5464849E3923BBF4C3 /* StartMyDayModuleViewController.storyboard */,
-				B06C8C307CE6CBCD107B2F2E /* StartMyDayModuleViewInput.swift */,
-				34510AC3BC7BD5006453E524 /* StartMyDayModuleViewOutput.swift */,
+				DE3ABF268A70823FF6976F1B /* StartDayPresenterTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5484C8C04757D14687D81F0F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFB8B1B96BBD2548CE04C4A4 /* MainViewController.swift */,
+				B7E2B48F83F2D89CE99828C1 /* MainViewController.storyboard */,
+				B5C27982B17AB6EB641AB99E /* MainViewInput.swift */,
+				1A85BAE2C6E26E8DCA8054A8 /* MainViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54F87B27BC2ED34C50A529AA /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				2D2C8D6854EFEF0430500F78 /* TaskOnDayModuleConfiguratorTests.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		5730A652BFB11D527936162C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7FF7FE895977BF86A2BE5E59 /* StartDayViewTests.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5E59190B42F6A0544914CFA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7C22F1F704D03172E6CC1D1F /* EndDayViewTests.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -623,20 +876,15 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
-		627528B2696EB440EAEFD08B /* Configurator */ = {
+		62C8ADC9F67475F58CFC0E8A /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				94A6E99C24B32651770F7721 /* MainModuleModuleConfigurator.swift */,
+				BA61B62730B29D86D37690AB /* Configurator */,
+				31569BEBE2E48B8B2C5FC675 /* Router */,
+				FBCA5721044E6809CCA33644 /* Presenter */,
+				5484C8C04757D14687D81F0F /* View */,
 			);
-			path = Configurator;
-			sourceTree = "<group>";
-		};
-		62B41DA861F0320968B5FB34 /* Configurator */ = {
-			isa = PBXGroup;
-			children = (
-				A83FFEED5EFA792977A54187 /* TaskForDayModuleModuleConfigurator.swift */,
-			);
-			path = Configurator;
+			path = Main;
 			sourceTree = "<group>";
 		};
 		64C6C84BD9434FD8D7BFB0F3 /* Configurator */ = {
@@ -645,6 +893,17 @@
 				847846FBF4246E4A8D7EDAA6 /* StartMyDayModuleModuleConfiguratorTests.swift */,
 			);
 			path = Configurator;
+			sourceTree = "<group>";
+		};
+		658B53B46D3750E942562BAA /* TaskOnLocation */ = {
+			isa = PBXGroup;
+			children = (
+				0BEF27990A72F45F3D65E0DC /* Configurator */,
+				014B84E23A82FEC568958A3C /* Router */,
+				D6D31F4DBA4A7706F16BCC4B /* Presenter */,
+				F44EA0819090F94A5ACAC2B7 /* View */,
+			);
+			path = TaskOnLocation;
 			sourceTree = "<group>";
 		};
 		6F7C1CB84310365B14788F02 /* Presenter */ = {
@@ -666,15 +925,12 @@
 			path = TaskForDayModule;
 			sourceTree = "<group>";
 		};
-		798BAE4AF52A35D2DE4F6A69 /* StartMyDayModule */ = {
+		78767292BC39E0C732EEB690 /* Configurator */ = {
 			isa = PBXGroup;
 			children = (
-				0EBC10F1B17B3B2DF713C166 /* Configurator */,
-				188E66E50A48C2104E21E4B9 /* Router */,
-				23E532E772FDBADB66B67CD2 /* Presenter */,
-				53C732618E46216D2C0C06EE /* View */,
+				D7C32AB4F73BA1751A381DF8 /* StopDayModuleConfiguratorTests.swift */,
 			);
-			path = StartMyDayModule;
+			path = Configurator;
 			sourceTree = "<group>";
 		};
 		7CBB058821DCE7714D24D924 /* Configurator */ = {
@@ -685,14 +941,26 @@
 			path = Configurator;
 			sourceTree = "<group>";
 		};
-		85311546269CC7CFE96C5099 /* Presenter */ = {
+		803651303B2F2B4D82C1F38D /* StopDay */ = {
 			isa = PBXGroup;
 			children = (
-				6FF016040311FBA5D9762F8B /* TasksOnLocationModulePresenter.swift */,
-				7E66DC85A2567F0FE9BCEB94 /* TasksOnLocationModuleModuleInput.swift */,
-				5AE4C885734D7F4F3A11A805 /* TasksOnLocationModuleModuleOutput.swift */,
+				78767292BC39E0C732EEB690 /* Configurator */,
+				93FF85E11FC1279AFFEE7220 /* Router */,
+				919C65A29C8871177EF644F1 /* Presenter */,
+				A1A34216C60DCD3EC14C477F /* View */,
 			);
-			path = Presenter;
+			path = StopDay;
+			sourceTree = "<group>";
+		};
+		8207E3BDE6702D15F7BCB6B2 /* EndDay */ = {
+			isa = PBXGroup;
+			children = (
+				F0C318C6C471F0B4CB0D76F9 /* Configurator */,
+				DD38FD1E051CB88830275374 /* Router */,
+				BCE75E9EF3B5358AA43D63CD /* Presenter */,
+				337DF132D1812E024BDF0382 /* View */,
+			);
+			path = EndDay;
 			sourceTree = "<group>";
 		};
 		853F3D496E73CB2909002355 /* View */ = {
@@ -703,6 +971,17 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		858B532E0C566D94F0A80686 /* BeginDay */ = {
+			isa = PBXGroup;
+			children = (
+				45B4351A2FB1F62B98E88E2D /* Configurator */,
+				41C0C0F35DFB9E4B5EE4DF16 /* Router */,
+				A4DCBB17B6AD96C5EE3BA208 /* Presenter */,
+				D15CAAD1DFF8DC01B2957E8C /* View */,
+			);
+			path = BeginDay;
+			sourceTree = "<group>";
+		};
 		89C2FC6AA54982AFB0AF5BCB /* Router */ = {
 			isa = PBXGroup;
 			children = (
@@ -711,12 +990,50 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
+		8A72A14072066AB4103FED9D /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				C7A68B8DF3DD05C9244B68AD /* TaskOnLocationModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		8AC3D3597F976D77A7A20E6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BF20924806EEFF993A772E0 /* TaskOnLocationViewController.swift */,
+				01D6E4456D797680C5FCE884 /* TaskOnLocationViewController.storyboard */,
+				E8F96B53B1DDC59957245607 /* TaskOnLocationViewInput.swift */,
+				FA0AB6EAC95516888739A1B4 /* TaskOnLocationViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D8D2B93812A6C48C140A332 /* TaskOnLocation */ = {
+			isa = PBXGroup;
+			children = (
+				8A72A14072066AB4103FED9D /* Configurator */,
+				1DCE42892701BBBFD001EA82 /* Router */,
+				30F054DBCDA41A81936CB8D4 /* Presenter */,
+				8AC3D3597F976D77A7A20E6D /* View */,
+			);
+			path = TaskOnLocation;
+			sourceTree = "<group>";
+		};
 		8FCF8A1B810A03564B699656 /* Configurator */ = {
 			isa = PBXGroup;
 			children = (
 				13350D9FAC6CF6C063B66275 /* MyTaskOnLocationModuleModuleConfiguratorTests.swift */,
 			);
 			path = Configurator;
+			sourceTree = "<group>";
+		};
+		919C65A29C8871177EF644F1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2FFA3AFEFC182189D686FAA2 /* StopDayPresenterTests.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		91E76A0382DE21245B32C564 /* TasksOnLocationModule */ = {
@@ -730,15 +1047,21 @@
 			path = TasksOnLocationModule;
 			sourceTree = "<group>";
 		};
-		957280AFCA62063BD73C50A8 /* TasksOnLocationModule */ = {
+		93FF85E11FC1279AFFEE7220 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				3CBED8F3A990BF43AD445D3C /* Configurator */,
-				AE576B66FB5DED5C890869E8 /* Router */,
-				85311546269CC7CFE96C5099 /* Presenter */,
-				E4BA6DFB7CB2230264A0CC36 /* View */,
+				39DFE035C4FF0D4A437E80B5 /* StopDayRouterTests.swift */,
 			);
-			path = TasksOnLocationModule;
+			path = Router;
+			sourceTree = "<group>";
+		};
+		98DF4F37E6B9A4C525DBBFF5 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				620F41D4861E8AB6ED8B061E /* BeginDayRouter.swift */,
+				B67F2C04000D6763D3DC310B /* BeginDayRouterInput.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 		9936E2C13D96B5C6BB71E509 /* View */ = {
@@ -760,32 +1083,31 @@
 			path = StartMyDayModule;
 			sourceTree = "<group>";
 		};
-		A321D96FF5A8864037FB4902 /* Router */ = {
+		A1A34216C60DCD3EC14C477F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E392608FA10897DFD250610C /* MainModuleRouter.swift */,
-				84B4AC3C604B1FD7F68003EA /* MainModuleRouterInput.swift */,
+				D1B59EFBCF5D61FA5EAE98F6 /* StopDayViewTests.swift */,
 			);
-			path = Router;
+			path = View;
 			sourceTree = "<group>";
 		};
-		AA8D05E4CFB6452E4CCE2A4F /* Presenter */ = {
+		A4DCBB17B6AD96C5EE3BA208 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				7C7906A0724DD4C71CC62E1F /* MainModulePresenter.swift */,
-				D408260BBD6D27AF001176A4 /* MainModuleModuleInput.swift */,
-				2CCF11684361C7FCD184D2DD /* MainModuleModuleOutput.swift */,
+				A4DE443942FBB9E16DEC5362 /* BeginDayPresenterTests.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
 		};
-		AE576B66FB5DED5C890869E8 /* Router */ = {
+		AC9EDFF3D1FB7CD21409C281 /* TaskOnDay */ = {
 			isa = PBXGroup;
 			children = (
-				41A8C00E5A35C2C1489F78A2 /* TasksOnLocationModuleRouter.swift */,
-				76B2359934BD907B0A5A6ACF /* TasksOnLocationModuleRouterInput.swift */,
+				EF829DFC2400668B239729E5 /* Configurator */,
+				2B161929CEE29377CAED13AB /* Router */,
+				0CC21E520B0EF300D89E2A4E /* Presenter */,
+				C109884B93062CFC75362D5A /* View */,
 			);
-			path = Router;
+			path = TaskOnDay;
 			sourceTree = "<group>";
 		};
 		B93B0D17079F383C7FE41B77 /* Router */ = {
@@ -796,15 +1118,33 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
-		C09E79FB7557740A7D7FFC5A /* TaskForDayModule */ = {
+		BA61B62730B29D86D37690AB /* Configurator */ = {
 			isa = PBXGroup;
 			children = (
-				62B41DA861F0320968B5FB34 /* Configurator */,
-				E4F5F6EF78BF09FB1CF63311 /* Router */,
-				EA45DA70A251D967FA8FC80A /* Presenter */,
-				E37A9C708C808E0B5807C32D /* View */,
+				1CD3C2F849710714C35E1D42 /* MainModuleConfigurator.swift */,
 			);
-			path = TaskForDayModule;
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		BCE75E9EF3B5358AA43D63CD /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5CC0D90025158B913B2874DF /* EndDayPresenter.swift */,
+				8F67B600FF048440331409F9 /* EndDayModuleInput.swift */,
+				07FDB6800D631C3666F1AE62 /* EndDayModuleOutput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C109884B93062CFC75362D5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				801EB44BBFA2D951CA45A61E /* TaskOnDayViewController.swift */,
+				B3BC64C12A07C768ADE0D16C /* TaskOnDayViewController.storyboard */,
+				B7F5E809227E7D10E33F4EB8 /* TaskOnDayViewInput.swift */,
+				E575A9E0F8B0415BC2592287 /* TaskOnDayViewOutput.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		C373D065DF19067E657975EB /* Configurator */ = {
@@ -823,45 +1163,90 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
-		E37A9C708C808E0B5807C32D /* View */ = {
+		D054E666998EE35B3CF19054 /* StartDay */ = {
 			isa = PBXGroup;
 			children = (
-				9927A2D2765E6BF390E8945B /* TaskForDayModuleViewController.swift */,
-				5340539702C50E6AA1B217B1 /* TaskForDayModuleViewController.storyboard */,
-				FF4AFB734C8C1C51F77FBE60 /* TaskForDayModuleViewInput.swift */,
-				6480E2A7093B9025F66D2C22 /* TaskForDayModuleViewOutput.swift */,
+				48F32B0458003481BC690A8E /* Configurator */,
+				383F97EFA649A5CDB80FAFB5 /* Router */,
+				4DE0DFD5FBA44D376BE56BE4 /* Presenter */,
+				5730A652BFB11D527936162C /* View */,
+			);
+			path = StartDay;
+			sourceTree = "<group>";
+		};
+		D15CAAD1DFF8DC01B2957E8C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D13600CD8264EFBBED9185A5 /* BeginDayViewTests.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		E4BA6DFB7CB2230264A0CC36 /* View */ = {
+		D4811D12009587A3ADE8420B /* Configurator */ = {
 			isa = PBXGroup;
 			children = (
-				FE7C8C63B22A9F927D449418 /* TasksOnLocationModuleViewController.swift */,
-				88C717FA2DC54443C9D0D92C /* TasksOnLocationModuleViewController.storyboard */,
-				3A89FE2DD2F1069A84A73B3C /* TasksOnLocationModuleViewInput.swift */,
-				89E3B145B3975181C5A9EA4D /* TasksOnLocationModuleViewOutput.swift */,
+				15C97E3D93F2494ED1615B40 /* MainModuleConfiguratorTests.swift */,
 			);
-			path = View;
+			path = Configurator;
 			sourceTree = "<group>";
 		};
-		E4F5F6EF78BF09FB1CF63311 /* Router */ = {
+		D597CEF8063AD51931ECC2B5 /* Configurator */ = {
 			isa = PBXGroup;
 			children = (
-				CDC29BD3CF533F30018662D4 /* TaskForDayModuleRouter.swift */,
-				80A944999091ECE13CB08F9F /* TaskForDayModuleRouterInput.swift */,
+				91EFA79DFD023E45D4A997AA /* BeginDayModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		D6D31F4DBA4A7706F16BCC4B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				66B48605897025419FD0EE8D /* TaskOnLocationPresenterTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DC34C31BE175E917072434B3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E6C26D6B4A9E738D08A2ABDB /* BeginDayPresenter.swift */,
+				567D17674793F293DE0C60B3 /* BeginDayModuleInput.swift */,
+				C9850B8075CBE18215BC78D7 /* BeginDayModuleOutput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DD38FD1E051CB88830275374 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				53394FA485A32A4BA4BCCE4C /* EndDayRouter.swift */,
+				7AF33F11DD3351CB9D05BB28 /* EndDayRouterInput.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
 		};
-		EA45DA70A251D967FA8FC80A /* Presenter */ = {
+		DDBAD98C757BC4C05369F26C /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				DF3C29E94C2554AEDD5634D2 /* TaskForDayModulePresenter.swift */,
-				84D9F92C90047AD1855779BA /* TaskForDayModuleModuleInput.swift */,
-				4B5AEB35BC3AED2045961722 /* TaskForDayModuleModuleOutput.swift */,
+				ADEE9574C3D01EE1203C520D /* MainRouterTests.swift */,
 			);
-			path = Presenter;
+			path = Router;
+			sourceTree = "<group>";
+		};
+		EF829DFC2400668B239729E5 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				1BDA649696606AFC789E3C5B /* TaskOnDayModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		F0C318C6C471F0B4CB0D76F9 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				9BE95180BB5C9C7D15EF8917 /* EndDayModuleConfigurator.swift */,
+			);
+			path = Configurator;
 			sourceTree = "<group>";
 		};
 		F0E1D6CE2EB81A769ACAAF83 /* Configurator */ = {
@@ -883,6 +1268,59 @@
 			path = MyTaskOnLocationModule;
 			sourceTree = "<group>";
 		};
+		F44EA0819090F94A5ACAC2B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C38F9718B8CF6CD703352F9 /* TaskOnLocationViewTests.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F77F1938D21F4C23B92F3DD3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6070C187CE8AA04526BDD1AF /* EndDayPresenterTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		FB74CDBE9ACADB1EBFD37CC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				74130DC78A315BE58468E99F /* MainViewTests.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FBCA5721044E6809CCA33644 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				549419D4F9BFD40ECB0F2CAC /* MainPresenter.swift */,
+				EB018294F4C81FE81E093603 /* MainModuleInput.swift */,
+				067AAA5B46096C79CCBD47C4 /* MainModuleOutput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		FBD89F16F3B46C858406EF7E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				9C4E430991BAC4D48878B01E /* TaskOnDayRouterTests.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		FDDE8E3B966981222C8D45AB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D4811D12009587A3ADE8420B /* Configurator */,
+				DDBAD98C757BC4C05369F26C /* Router */,
+				2B68BB1C18E1F66E8D2452F4 /* Presenter */,
+				FB74CDBE9ACADB1EBFD37CC7 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -896,6 +1334,7 @@
 				3100055D233F269F001F9F7E /* Swift Gen */,
 				6C592B11F36687500FAFA8AF /* Sources */,
 				32F3D137F933629D467CFC5D /* Resources */,
+				A8B5DD24F8A650C54E552242 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -974,10 +1413,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3728B11995F909B54AAF0658 /* MainModuleViewController.storyboard in Resources */,
-				D16917A5DD2341A23C83A1CD /* StartMyDayModuleViewController.storyboard in Resources */,
-				F6AF3B28EE8A58E0A533EABD /* TaskForDayModuleViewController.storyboard in Resources */,
-				1D09494C50CBDD9E64702EA3 /* TasksOnLocationModuleViewController.storyboard in Resources */,
+				FD304DC996A06973B5003999 /* TaskOnLocationViewController.storyboard in Resources */,
+				600AA5A87A50E7A543968BDE /* TaskOnDayViewController.storyboard in Resources */,
+				F2CA3F4CCDA04E776DBACC66 /* BeginDayViewController.storyboard in Resources */,
+				535FC213E72132DF518442E2 /* EndDayViewController.storyboard in Resources */,
+				60B685D4E36361EA3C8C4543 /* MainViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1042,6 +1482,34 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A8B5DD24F8A650C54E552242 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IndoorNavigation/Pods-IndoorNavigation-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/CoreEvents/CoreEvents.framework",
+				"${BUILT_PRODUCTS_DIR}/NodeKit/NodeKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreEvents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NodeKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IndoorNavigation/Pods-IndoorNavigation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1070,6 +1538,34 @@
 				F4722440CF52C0E8DCB75EDD /* TasksOnLocationModuleRouterTests.swift in Sources */,
 				AACE3FFE079F779CB54B5E3E /* TasksOnLocationModulePresenterTests.swift in Sources */,
 				F769688E395766905E1230A3 /* TasksOnLocationModuleViewTests.swift in Sources */,
+				59B33D7EA0936461C622AF85 /* TaskOnLocationModuleConfiguratorTests.swift in Sources */,
+				D1231E1DB60C10EAAFCDA308 /* TaskOnLocationRouterTests.swift in Sources */,
+				346B113430D9377903F0F503 /* TaskOnLocationPresenterTests.swift in Sources */,
+				C9D2C2CCB6203FC40DE34619 /* TaskOnLocationViewTests.swift in Sources */,
+				59DCDDF1DEDF614939E773FB /* TaskOnDayModuleConfiguratorTests.swift in Sources */,
+				666CFDA8558CAEDAA90A1956 /* TaskOnDayRouterTests.swift in Sources */,
+				D8670EC90B06615ED436615F /* TaskOnDayPresenterTests.swift in Sources */,
+				2FF073103EC332D1A16FD5E8 /* TaskOnDayViewTests.swift in Sources */,
+				9C4A89D18B60B25445447ECE /* StartDayModuleConfiguratorTests.swift in Sources */,
+				73307AC10748357DE50618A4 /* StartDayRouterTests.swift in Sources */,
+				BA04DCBEB34CBC3AEB3A5F9A /* StartDayPresenterTests.swift in Sources */,
+				D1859064F6B0B3830CE11647 /* StartDayViewTests.swift in Sources */,
+				C4D879E2623119DC2A7A9C53 /* StopDayModuleConfiguratorTests.swift in Sources */,
+				1B4AB3C06008C41BF48D9E23 /* StopDayRouterTests.swift in Sources */,
+				93FD4AD527CC1DAC89BE7DD9 /* StopDayPresenterTests.swift in Sources */,
+				1C308043B81119BB3742BA83 /* StopDayViewTests.swift in Sources */,
+				F575BE65AD0E727E701262BC /* BeginDayModuleConfiguratorTests.swift in Sources */,
+				6F59D7910C4997938C6F3BBC /* BeginDayRouterTests.swift in Sources */,
+				46D502A0F54A5CCD432B1BF8 /* BeginDayPresenterTests.swift in Sources */,
+				B07ED2659EF144052D649694 /* BeginDayViewTests.swift in Sources */,
+				5C4DC3D78C601AFFAE54A6F5 /* EndDayModuleConfiguratorTests.swift in Sources */,
+				E431AF4F22BA9131C84B6D31 /* EndDayRouterTests.swift in Sources */,
+				DC25ADDC8A138B4962859CBC /* EndDayPresenterTests.swift in Sources */,
+				3B56E1DDC11956FA99E15930 /* EndDayViewTests.swift in Sources */,
+				BF66F9A6E41A52914776D75B /* MainModuleConfiguratorTests.swift in Sources */,
+				16D58BD113886DA8C9B019F5 /* MainRouterTests.swift in Sources */,
+				A6EF687ED6EE1A4D5028DCB1 /* MainPresenterTests.swift in Sources */,
+				AD67FF2E9E6D078B8AF41C6A /* MainViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1078,43 +1574,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				3112C7F6233F2EA800C4D36F /* AppDelegate.swift in Sources */,
-				76C66E18596C7B140DCABBF0 /* MainModuleModuleConfigurator.swift in Sources */,
-				EAEBDE59F6162170CD4473F1 /* MainModuleRouter.swift in Sources */,
-				61B1713CDF126C6200F6FB95 /* MainModuleRouterInput.swift in Sources */,
-				32BEEC84B959A1BF5D96A495 /* MainModulePresenter.swift in Sources */,
-				9E4A2CAD4728738162A4021A /* MainModuleModuleInput.swift in Sources */,
 				3112C7F5233F2CB100C4D36F /* ModuleTransitionable.swift in Sources */,
-				FE6D7A2973A4E21286EA3EEA /* MainModuleModuleOutput.swift in Sources */,
-				12CE2582586BBEA77501C3EB /* MainModuleViewController.swift in Sources */,
-				6B74047128632D0860AA7C0F /* MainModuleViewInput.swift in Sources */,
-				3D2022FDBCAB80725014CDEC /* MainModuleViewOutput.swift in Sources */,
-				E6076399425D36D460E46D42 /* StartMyDayModuleModuleConfigurator.swift in Sources */,
-				0FA478FC5A4EFC10FC922C40 /* StartMyDayModuleRouter.swift in Sources */,
-				DDF9F1D5395B5AED0548103E /* StartMyDayModuleRouterInput.swift in Sources */,
-				8F26C1D78D47F0D1D28E57C0 /* StartMyDayModulePresenter.swift in Sources */,
-				9C3C198032421AACB91F3037 /* StartMyDayModuleModuleInput.swift in Sources */,
-				2C9058CD76E7FAA6E04D2A8B /* StartMyDayModuleModuleOutput.swift in Sources */,
-				F4B3FD677505D856EA5E68CB /* StartMyDayModuleViewController.swift in Sources */,
-				C9CFD8FA77B7D04FB65E95BB /* StartMyDayModuleViewInput.swift in Sources */,
-				B91DB1702587E864053F0151 /* StartMyDayModuleViewOutput.swift in Sources */,
-				C45011FF4C54D79116627BEE /* TaskForDayModuleModuleConfigurator.swift in Sources */,
-				BE2667D51358E0B70C008823 /* TaskForDayModuleRouter.swift in Sources */,
-				B14C863FBAFACF86220240DB /* TaskForDayModuleRouterInput.swift in Sources */,
-				4B97D69359FC69ECA80B3926 /* TaskForDayModulePresenter.swift in Sources */,
-				2017BBE1D01363212DA6AEBB /* TaskForDayModuleModuleInput.swift in Sources */,
-				BD1E5B31416AFFFD2BE54F1B /* TaskForDayModuleModuleOutput.swift in Sources */,
-				FE839439C2B9BC873DD4A664 /* TaskForDayModuleViewController.swift in Sources */,
-				004F4C54061CC1450F8CD0FD /* TaskForDayModuleViewInput.swift in Sources */,
-				0DD3E509379D3AF3EAD2A601 /* TaskForDayModuleViewOutput.swift in Sources */,
-				07E2264DA3B83F7B55DE78CB /* TasksOnLocationModuleModuleConfigurator.swift in Sources */,
-				8D60B112718A65F79DFF1620 /* TasksOnLocationModuleRouter.swift in Sources */,
-				C1BC846081B661D7B9CA7E49 /* TasksOnLocationModuleRouterInput.swift in Sources */,
-				7ED881523B87E4B9D5727529 /* TasksOnLocationModulePresenter.swift in Sources */,
-				E15F3BE5DE75276A381CEE99 /* TasksOnLocationModuleModuleInput.swift in Sources */,
-				E9794EE96D3869ACFFD82848 /* TasksOnLocationModuleModuleOutput.swift in Sources */,
-				41A0168DEC974AC0A5388E42 /* TasksOnLocationModuleViewController.swift in Sources */,
-				8238A22465B24D5F06DB953E /* TasksOnLocationModuleViewInput.swift in Sources */,
-				72CB93FB11180C29BB948048 /* TasksOnLocationModuleViewOutput.swift in Sources */,
+				31E45CE4233F4F6B003A4572 /* BeaconEntry.swift in Sources */,
+				31E45CE2233F4E35003A4572 /* Beacon.swift in Sources */,
+				B729242A1487468326B08B31 /* TaskOnLocationModuleConfigurator.swift in Sources */,
+				AD4DD038A40243FBFCD26AEA /* TaskOnLocationRouter.swift in Sources */,
+				8EE1A5C82CC4327DD75014FF /* TaskOnLocationRouterInput.swift in Sources */,
+				68B131D5F5A5961146E69AB1 /* TaskOnLocationPresenter.swift in Sources */,
+				D1972AE79066125C53A960E1 /* TaskOnLocationModuleInput.swift in Sources */,
+				AEFE55001DFEC6B86DD5C81D /* TaskOnLocationModuleOutput.swift in Sources */,
+				C52610E1D14928204F625DDF /* TaskOnLocationViewController.swift in Sources */,
+				286E4FE642F0AB304C62D94E /* TaskOnLocationViewInput.swift in Sources */,
+				B139FB75A00C16DF4D3BEA2F /* TaskOnLocationViewOutput.swift in Sources */,
+				C8EC28A9D1F38EA3D24D316F /* TaskOnDayModuleConfigurator.swift in Sources */,
+				EAB8B4C49A580E79558DEC55 /* TaskOnDayRouter.swift in Sources */,
+				2E9BEED6D62A1AD6EDC417DB /* TaskOnDayRouterInput.swift in Sources */,
+				9775D9A730E0AE2E6C4D5ED6 /* TaskOnDayPresenter.swift in Sources */,
+				91CCC17A492653657ED5381E /* TaskOnDayModuleInput.swift in Sources */,
+				E468F525FC614EA96790CC4B /* TaskOnDayModuleOutput.swift in Sources */,
+				8B8CEE24450C7E81208951DA /* TaskOnDayViewController.swift in Sources */,
+				3D77F749733743CA9E0D1C34 /* TaskOnDayViewInput.swift in Sources */,
+				D3DAC24B3513A0C3D5FB537E /* TaskOnDayViewOutput.swift in Sources */,
+				7753137ED297FBBE0421A4DF /* BeginDayModuleConfigurator.swift in Sources */,
+				51930D5E54F038DA086086AC /* BeginDayRouter.swift in Sources */,
+				BB25ADA422B17189DD400216 /* BeginDayRouterInput.swift in Sources */,
+				7969647C4E31A32E0F8E3BE2 /* BeginDayPresenter.swift in Sources */,
+				154939C4744852D58057A9E9 /* BeginDayModuleInput.swift in Sources */,
+				ADCFBB00A5FE2E550D20DEE6 /* BeginDayModuleOutput.swift in Sources */,
+				A4CEC8D0802FCEC9DF6C1559 /* BeginDayViewController.swift in Sources */,
+				0A31066609C9D22CA8A3D50F /* BeginDayViewInput.swift in Sources */,
+				860E80182A0EF0BFE4E2B4B7 /* BeginDayViewOutput.swift in Sources */,
+				D877A6BCD4960B7805FEF57D /* EndDayModuleConfigurator.swift in Sources */,
+				FACB33367E63E0066915DA84 /* EndDayRouter.swift in Sources */,
+				EDF759C0FB4E034E12F403F2 /* EndDayRouterInput.swift in Sources */,
+				F12A051B3BD1C8D4BD181E4A /* EndDayPresenter.swift in Sources */,
+				B65C58A4EA308583CF5E1823 /* EndDayModuleInput.swift in Sources */,
+				0890DF613B11044198B7FA05 /* EndDayModuleOutput.swift in Sources */,
+				901ACC0A0349B171233FCF59 /* EndDayViewController.swift in Sources */,
+				6E8E91A5B1C8F183C94C65F4 /* EndDayViewInput.swift in Sources */,
+				AB6425CEF71C7CFC2AC2E581 /* EndDayViewOutput.swift in Sources */,
+				387A638E2050955507482A87 /* MainModuleConfigurator.swift in Sources */,
+				5E63E0F022CAC4C2D01B0896 /* MainRouter.swift in Sources */,
+				614CB15831B890C900DB3E72 /* MainRouterInput.swift in Sources */,
+				50953386F739B5DCD2B15AB8 /* MainPresenter.swift in Sources */,
+				C5C0D61541DF71B91BBC3AA6 /* MainModuleInput.swift in Sources */,
+				33B26634D46BB3E63B95EE36 /* MainModuleOutput.swift in Sources */,
+				7CDF8D396E82F82B6FC60C2F /* MainViewController.swift in Sources */,
+				B22C5173B8B9ED9BC99F99F3 /* MainViewInput.swift in Sources */,
+				F05F1E0115A6780C9C020EA7 /* MainViewOutput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1179,7 +1686,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1234,7 +1741,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

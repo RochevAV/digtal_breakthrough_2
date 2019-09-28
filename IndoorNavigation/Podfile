@@ -9,7 +9,8 @@ end
 
 def common_pods
     utils
-    # Put your pods here
+    pod 'NodeKit', :git => 'https://github.com/surfstudio/NodeKit', :commit => 'b5c30f2a30ab3d047f19e5049d858cdd5c524c55'
+    pod 'AlamofireImage', '~> 4.0.0-beta.1'
 end
 
 target 'IndoorNavigation' do
