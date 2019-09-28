@@ -11,6 +11,7 @@
 		2622BE6C265103F3FBF9B6A5 /* MainModulePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66A789E507F930AB69C9500 /* MainModulePresenterTests.swift */; };
 		310005A9233F269F001F9F7E /* IndoorNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310005A8233F269F001F9F7E /* IndoorNavigationTests.swift */; };
 		3112C7F5233F2CB100C4D36F /* ModuleTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112C7F4233F2CB100C4D36F /* ModuleTransitionable.swift */; };
+		3112C7F6233F2EA800C4D36F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100058D233F269F001F9F7E /* AppDelegate.swift */; };
 		32BEEC84B959A1BF5D96A495 /* MainModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7906A0724DD4C71CC62E1F /* MainModulePresenter.swift */; };
 		3728B11995F909B54AAF0658 /* MainModuleViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A08B1D821F39691BE940C7 /* MainModuleViewController.storyboard */; };
 		3D2022FDBCAB80725014CDEC /* MainModuleViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63547D62567516E5A816E147 /* MainModuleViewOutput.swift */; };
@@ -639,6 +640,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3112C7F6233F2EA800C4D36F /* AppDelegate.swift in Sources */,
 				76C66E18596C7B140DCABBF0 /* MainModuleModuleConfigurator.swift in Sources */,
 				EAEBDE59F6162170CD4473F1 /* MainModuleRouter.swift in Sources */,
 				61B1713CDF126C6200F6FB95 /* MainModuleRouterInput.swift in Sources */,
