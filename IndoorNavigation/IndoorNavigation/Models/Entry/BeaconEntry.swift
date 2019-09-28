@@ -1,4 +1,3 @@
-
 import NodeKit
 
 struct BeaconEntry {

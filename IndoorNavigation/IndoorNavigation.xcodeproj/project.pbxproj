@@ -24,6 +24,9 @@
 		310005A9233F269F001F9F7E /* IndoorNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310005A8233F269F001F9F7E /* IndoorNavigationTests.swift */; };
 		3112C7F5233F2CB100C4D36F /* ModuleTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112C7F4233F2CB100C4D36F /* ModuleTransitionable.swift */; };
 		3112C7F6233F2EA800C4D36F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100058D233F269F001F9F7E /* AppDelegate.swift */; };
+		315176B0233F7194008A41A5 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315176AF233F7194008A41A5 /* LocationService.swift */; };
+		31517907233F743400567C1D /* CustomChains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31517906233F743400567C1D /* CustomChains.swift */; };
+		3151790A233F7DF000567C1D /* BeaconRadar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31517909233F7DF000567C1D /* BeaconRadar.swift */; };
 		31E45CE2233F4E35003A4572 /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E45CE1233F4E35003A4572 /* Beacon.swift */; };
 		31E45CE4233F4F6B003A4572 /* BeaconEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E45CE3233F4F6B003A4572 /* BeaconEntry.swift */; };
 		33B26634D46BB3E63B95EE36 /* MainModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067AAA5B46096C79CCBD47C4 /* MainModuleOutput.swift */; };
@@ -184,6 +187,9 @@
 		3112C7F2233F2B8700C4D36F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3112C7F3233F2BB200C4D36F /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile; sourceTree = SOURCE_ROOT; };
 		3112C7F4233F2CB100C4D36F /* ModuleTransitionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleTransitionable.swift; sourceTree = "<group>"; };
+		315176AF233F7194008A41A5 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		31517906233F743400567C1D /* CustomChains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChains.swift; sourceTree = "<group>"; };
+		31517909233F7DF000567C1D /* BeaconRadar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconRadar.swift; sourceTree = "<group>"; };
 		31E45CE1233F4E35003A4572 /* Beacon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
 		31E45CE3233F4F6B003A4572 /* BeaconEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconEntry.swift; sourceTree = "<group>"; };
 		350BCB962C7AC448758502A3 /* TaskOnDayModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnDayModuleOutput.swift; sourceTree = "<group>"; };
@@ -528,6 +534,7 @@
 		31000569233F269F001F9F7E /* Third Party */ = {
 			isa = PBXGroup;
 			children = (
+				31517904233F741900567C1D /* NodeKit */,
 				3100056A233F269F001F9F7E /* .gitkeep */,
 			);
 			path = "Third Party";
@@ -536,6 +543,8 @@
 		3100056B233F269F001F9F7E /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				31517908233F7B3200567C1D /* BeaconRadar */,
+				315176AE233F716F008A41A5 /* Network Layer */,
 				3100056C233F269F001F9F7E /* .gitkeep */,
 			);
 			path = Services;
@@ -708,6 +717,38 @@
 				4939C8EE28921BAAE09A3A81 /* User Stories */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		315176AE233F716F008A41A5 /* Network Layer */ = {
+			isa = PBXGroup;
+			children = (
+				315176AF233F7194008A41A5 /* LocationService.swift */,
+			);
+			path = "Network Layer";
+			sourceTree = "<group>";
+		};
+		31517904233F741900567C1D /* NodeKit */ = {
+			isa = PBXGroup;
+			children = (
+				31517905233F742500567C1D /* Chains */,
+			);
+			path = NodeKit;
+			sourceTree = "<group>";
+		};
+		31517905233F742500567C1D /* Chains */ = {
+			isa = PBXGroup;
+			children = (
+				31517906233F743400567C1D /* CustomChains.swift */,
+			);
+			path = Chains;
+			sourceTree = "<group>";
+		};
+		31517908233F7B3200567C1D /* BeaconRadar */ = {
+			isa = PBXGroup;
+			children = (
+				31517909233F7DF000567C1D /* BeaconRadar.swift */,
+			);
+			path = BeaconRadar;
 			sourceTree = "<group>";
 		};
 		31569BEBE2E48B8B2C5FC675 /* Router */ = {
@@ -1590,6 +1631,7 @@
 				EAB8B4C49A580E79558DEC55 /* TaskOnDayRouter.swift in Sources */,
 				2E9BEED6D62A1AD6EDC417DB /* TaskOnDayRouterInput.swift in Sources */,
 				9775D9A730E0AE2E6C4D5ED6 /* TaskOnDayPresenter.swift in Sources */,
+				31517907233F743400567C1D /* CustomChains.swift in Sources */,
 				91CCC17A492653657ED5381E /* TaskOnDayModuleInput.swift in Sources */,
 				E468F525FC614EA96790CC4B /* TaskOnDayModuleOutput.swift in Sources */,
 				8B8CEE24450C7E81208951DA /* TaskOnDayViewController.swift in Sources */,
@@ -1610,11 +1652,13 @@
 				F12A051B3BD1C8D4BD181E4A /* EndDayPresenter.swift in Sources */,
 				B65C58A4EA308583CF5E1823 /* EndDayModuleInput.swift in Sources */,
 				0890DF613B11044198B7FA05 /* EndDayModuleOutput.swift in Sources */,
+				3151790A233F7DF000567C1D /* BeaconRadar.swift in Sources */,
 				901ACC0A0349B171233FCF59 /* EndDayViewController.swift in Sources */,
 				6E8E91A5B1C8F183C94C65F4 /* EndDayViewInput.swift in Sources */,
 				AB6425CEF71C7CFC2AC2E581 /* EndDayViewOutput.swift in Sources */,
 				387A638E2050955507482A87 /* MainModuleConfigurator.swift in Sources */,
 				5E63E0F022CAC4C2D01B0896 /* MainRouter.swift in Sources */,
+				315176B0233F7194008A41A5 /* LocationService.swift in Sources */,
 				614CB15831B890C900DB3E72 /* MainRouterInput.swift in Sources */,
 				50953386F739B5DCD2B15AB8 /* MainPresenter.swift in Sources */,
 				C5C0D61541DF71B91BBC3AA6 /* MainModuleInput.swift in Sources */,

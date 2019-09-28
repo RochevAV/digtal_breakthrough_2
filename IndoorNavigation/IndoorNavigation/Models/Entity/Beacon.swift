@@ -25,6 +25,6 @@ extension Beacon: DTOConvertible {
 
     func toDTO() throws -> DTO {
         return BeaconEntry(beaconId: self.id,
-                           distance: self.distance)                
+                           distance: self.distance)
     }
 }
