@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = SwiftLint;
+			productName = SwiftLint;
 		};
 		B90CFECE4E80A23B3B9CF1144A85ACF6 /* SwiftGen */ = {
 			isa = PBXAggregateTarget;
@@ -24,6 +25,7 @@
 			dependencies = (
 			);
 			name = SwiftGen;
+			productName = SwiftGen;
 		};
 /* End PBXAggregateTarget section */
 
@@ -57,9 +59,9 @@
 		546B89F1461BE8DBF02938C7FC9EDD48 /* Pods-IndoorNavigation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IndoorNavigation.modulemap"; sourceTree = "<group>"; };
 		6423C31BE37540308B329CC9710476EE /* Pods-IndoorNavigation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IndoorNavigation.release.xcconfig"; sourceTree = "<group>"; };
 		6AA1CC29CDED8C606665ED41384F8A6B /* Pods-IndoorNavigation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IndoorNavigation-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; };
 		D9FBBDC77534EB2CBC606D775C54D880 /* Pods-IndoorNavigation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IndoorNavigation-Info.plist"; sourceTree = "<group>"; };
-		E095C20DB12FA4730C5433C336E1D0BF /* Pods_IndoorNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IndoorNavigation.framework; path = "Pods-IndoorNavigation.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E095C20DB12FA4730C5433C336E1D0BF /* Pods_IndoorNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IndoorNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73E4BCC0635BC7CD3E2F0DE54110DDB /* Pods-IndoorNavigation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IndoorNavigation-acknowledgements.plist"; sourceTree = "<group>"; };
 		EA23494E6A56C3F77183205AB08C4DA2 /* Pods-IndoorNavigation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IndoorNavigation.debug.xcconfig"; sourceTree = "<group>"; };
 		F04FB1CCE177DC0BDB0C6BF94E673332 /* SwiftLint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.xcconfig; sourceTree = "<group>"; };
@@ -108,7 +110,6 @@
 			children = (
 				EFE2E18A47B8A441185F5229BDD73059 /* Support Files */,
 			);
-			name = SwiftGen;
 			path = SwiftGen;
 			sourceTree = "<group>";
 		};
@@ -142,7 +143,6 @@
 			children = (
 				B3BFCB72B004FE7D00DD80DD4E57AB14 /* Support Files */,
 			);
-			name = SwiftLint;
 			path = SwiftLint;
 			sourceTree = "<group>";
 		};

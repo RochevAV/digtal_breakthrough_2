@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31000564233F269F001F9F7E /* fastlane in Resources */ = {isa = PBXBuildFile; fileRef = 31000563233F269F001F9F7E /* fastlane */; };
-		31000566233F269F001F9F7E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 31000565233F269F001F9F7E /* Podfile */; };
-		31000568233F269F001F9F7E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 31000567233F269F001F9F7E /* .gitignore */; };
-		3100058A233F269F001F9F7E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31000589233F269F001F9F7E /* LaunchScreen.xib */; };
-		3100058C233F269F001F9F7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3100058B233F269F001F9F7E /* Assets.xcassets */; };
-		3100058E233F269F001F9F7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100058D233F269F001F9F7E /* AppDelegate.swift */; };
-		31000594233F269F001F9F7E /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 31000593233F269F001F9F7E /* swiftgen.yml */; };
-		31000596233F269F001F9F7E /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 31000595233F269F001F9F7E /* .swiftlint.yml */; };
-		31000598233F269F001F9F7E /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 31000597233F269F001F9F7E /* Makefile */; };
-		3100059A233F269F001F9F7E /* Gemfile in Resources */ = {isa = PBXBuildFile; fileRef = 31000599233F269F001F9F7E /* Gemfile */; };
-		3100059C233F269F001F9F7E /* commit-msg in Resources */ = {isa = PBXBuildFile; fileRef = 3100059B233F269F001F9F7E /* commit-msg */; };
+		12CE2582586BBEA77501C3EB /* MainModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0050D4493CEB9E286E4B56 /* MainModuleViewController.swift */; };
+		2622BE6C265103F3FBF9B6A5 /* MainModulePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66A789E507F930AB69C9500 /* MainModulePresenterTests.swift */; };
 		310005A9233F269F001F9F7E /* IndoorNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310005A8233F269F001F9F7E /* IndoorNavigationTests.swift */; };
+		3112C7F5233F2CB100C4D36F /* ModuleTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112C7F4233F2CB100C4D36F /* ModuleTransitionable.swift */; };
+		32BEEC84B959A1BF5D96A495 /* MainModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7906A0724DD4C71CC62E1F /* MainModulePresenter.swift */; };
+		3728B11995F909B54AAF0658 /* MainModuleViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A08B1D821F39691BE940C7 /* MainModuleViewController.storyboard */; };
+		3D2022FDBCAB80725014CDEC /* MainModuleViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63547D62567516E5A816E147 /* MainModuleViewOutput.swift */; };
+		510903BB3F5106FEF71E7108 /* MainModuleRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5440697AB7B6429CAF356D87 /* MainModuleRouterTests.swift */; };
+		5EE84C65DA9C0D36F318B8E9 /* MainModuleViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E56A1F3672878AE6E194002 /* MainModuleViewTests.swift */; };
+		61B1713CDF126C6200F6FB95 /* MainModuleRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4AC3C604B1FD7F68003EA /* MainModuleRouterInput.swift */; };
+		6B74047128632D0860AA7C0F /* MainModuleViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034CDB5044191E3C228AA8D0 /* MainModuleViewInput.swift */; };
+		72FD716B44AA81446E60E8BE /* MainModuleModuleConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C732462A1543415710378 /* MainModuleModuleConfiguratorTests.swift */; };
+		76C66E18596C7B140DCABBF0 /* MainModuleModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A6E99C24B32651770F7721 /* MainModuleModuleConfigurator.swift */; };
+		9E4A2CAD4728738162A4021A /* MainModuleModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408260BBD6D27AF001176A4 /* MainModuleModuleInput.swift */; };
 		DC7AC9E984BEEA4B28078144 /* Pods_IndoorNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D5A1B4695C80599353E572 /* Pods_IndoorNavigation.framework */; };
+		EAEBDE59F6162170CD4473F1 /* MainModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E392608FA10897DFD250610C /* MainModuleRouter.swift */; };
+		FE6D7A2973A4E21286EA3EEA /* MainModuleModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF11684361C7FCD184D2DD /* MainModuleModuleOutput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,11 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		034CDB5044191E3C228AA8D0 /* MainModuleViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleViewInput.swift; sourceTree = "<group>"; };
 		0B9FFCD5989AF3097BD774CE /* Pods-IndoorNavigation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoorNavigation.release.xcconfig"; path = "Target Support Files/Pods-IndoorNavigation/Pods-IndoorNavigation.release.xcconfig"; sourceTree = "<group>"; };
 		13D5A1B4695C80599353E572 /* Pods_IndoorNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IndoorNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		184C732462A1543415710378 /* MainModuleModuleConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleModuleConfiguratorTests.swift; sourceTree = "<group>"; };
+		2CCF11684361C7FCD184D2DD /* MainModuleModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleModuleOutput.swift; sourceTree = "<group>"; };
+		2E0050D4493CEB9E286E4B56 /* MainModuleViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleViewController.swift; sourceTree = "<group>"; };
 		3100055F233F269F001F9F7E /* IndoorNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndoorNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31000563233F269F001F9F7E /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fastlane; path = ../../fastlane; sourceTree = "<group>"; };
-		31000565233F269F001F9F7E /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../../Podfile; sourceTree = "<group>"; };
 		31000567233F269F001F9F7E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../../.gitignore; sourceTree = "<group>"; };
 		3100056A233F269F001F9F7E /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		3100056C233F269F001F9F7E /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
@@ -60,9 +67,7 @@
 		31000590233F269F001F9F7E /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		31000591233F269F001F9F7E /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		31000592233F269F001F9F7E /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
-		31000593233F269F001F9F7E /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; name = swiftgen.yml; path = ../../swiftgen.yml; sourceTree = "<group>"; };
 		31000595233F269F001F9F7E /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; name = .swiftlint.yml; path = ../../.swiftlint.yml; sourceTree = "<group>"; };
-		31000597233F269F001F9F7E /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = ../../Makefile; sourceTree = "<group>"; };
 		31000599233F269F001F9F7E /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Gemfile; path = ../../Gemfile; sourceTree = "<group>"; };
 		3100059B233F269F001F9F7E /* commit-msg */ = {isa = PBXFileReference; lastKnownFileType = text; name = "commit-msg"; path = "../../commit-msg"; sourceTree = "<group>"; };
 		3100059D233F269F001F9F7E /* Rambafile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Rambafile; path = ../../Rambafile; sourceTree = "<group>"; };
@@ -71,9 +76,23 @@
 		310005A4233F269F001F9F7E /* IndoorNavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndoorNavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		310005A8233F269F001F9F7E /* IndoorNavigationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorNavigationTests.swift; sourceTree = "<group>"; };
 		310005AB233F269F001F9F7E /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		310005AC233F269F001F9F7E /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitkeep; path = .gitkeep; sourceTree = "<group>"; };
+		310005AC233F269F001F9F7E /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		310005AD233F269F001F9F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3112C7F1233F2B4200C4D36F /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = SOURCE_ROOT; };
+		3112C7F2233F2B8700C4D36F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		3112C7F3233F2BB200C4D36F /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile; sourceTree = SOURCE_ROOT; };
+		3112C7F4233F2CB100C4D36F /* ModuleTransitionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleTransitionable.swift; sourceTree = "<group>"; };
+		4E56A1F3672878AE6E194002 /* MainModuleViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleViewTests.swift; sourceTree = "<group>"; };
 		4EFC7E7D6B9D1C1ACD2064C1 /* Pods-IndoorNavigation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoorNavigation.debug.xcconfig"; path = "Target Support Files/Pods-IndoorNavigation/Pods-IndoorNavigation.debug.xcconfig"; sourceTree = "<group>"; };
+		5440697AB7B6429CAF356D87 /* MainModuleRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleRouterTests.swift; sourceTree = "<group>"; };
+		63547D62567516E5A816E147 /* MainModuleViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleViewOutput.swift; sourceTree = "<group>"; };
+		7C7906A0724DD4C71CC62E1F /* MainModulePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModulePresenter.swift; sourceTree = "<group>"; };
+		84B4AC3C604B1FD7F68003EA /* MainModuleRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleRouterInput.swift; sourceTree = "<group>"; };
+		94A6E99C24B32651770F7721 /* MainModuleModuleConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleModuleConfigurator.swift; sourceTree = "<group>"; };
+		A1A08B1D821F39691BE940C7 /* MainModuleViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = MainModuleViewController.storyboard; sourceTree = "<group>"; };
+		D408260BBD6D27AF001176A4 /* MainModuleModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleModuleInput.swift; sourceTree = "<group>"; };
+		D66A789E507F930AB69C9500 /* MainModulePresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModulePresenterTests.swift; sourceTree = "<group>"; };
+		E392608FA10897DFD250610C /* MainModuleRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainModuleRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +120,55 @@
 				13D5A1B4695C80599353E572 /* Pods_IndoorNavigation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12ADF8476088AF741D074DDE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E56A1F3672878AE6E194002 /* MainModuleViewTests.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C17A3F6DBEFD92F924EFD99 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				5440697AB7B6429CAF356D87 /* MainModuleRouterTests.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		1F26003AE1732EF4B98C4D37 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				627528B2696EB440EAEFD08B /* Configurator */,
+				A321D96FF5A8864037FB4902 /* Router */,
+				AA8D05E4CFB6452E4CCE2A4F /* Presenter */,
+				242E60E0B9B45F1CC6B2EE5A /* View */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		242E60E0B9B45F1CC6B2EE5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E0050D4493CEB9E286E4B56 /* MainModuleViewController.swift */,
+				A1A08B1D821F39691BE940C7 /* MainModuleViewController.storyboard */,
+				034CDB5044191E3C228AA8D0 /* MainModuleViewInput.swift */,
+				63547D62567516E5A816E147 /* MainModuleViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F0CA8E3E03051BC3AB5572E /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				C373D065DF19067E657975EB /* Configurator */,
+				1C17A3F6DBEFD92F924EFD99 /* Router */,
+				6F7C1CB84310365B14788F02 /* Presenter */,
+				12ADF8476088AF741D074DDE /* View */,
+			);
+			path = MainModule;
 			sourceTree = "<group>";
 		};
 		31000554233F269F001F9F7E = {
@@ -143,11 +211,11 @@
 			isa = PBXGroup;
 			children = (
 				31000563233F269F001F9F7E /* fastlane */,
-				31000565233F269F001F9F7E /* Podfile */,
+				3112C7F2233F2B8700C4D36F /* Podfile */,
 				31000567233F269F001F9F7E /* .gitignore */,
-				31000593233F269F001F9F7E /* swiftgen.yml */,
+				3112C7F1233F2B4200C4D36F /* swiftgen.yml */,
 				31000595233F269F001F9F7E /* .swiftlint.yml */,
-				31000597233F269F001F9F7E /* Makefile */,
+				3112C7F3233F2BB200C4D36F /* Makefile */,
 				31000599233F269F001F9F7E /* Gemfile */,
 				3100059B233F269F001F9F7E /* commit-msg */,
 				3100059D233F269F001F9F7E /* Rambafile */,
@@ -176,6 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				3100056E233F269F001F9F7E /* .gitkeep */,
+				1F26003AE1732EF4B98C4D37 /* MainModule */,
 			);
 			path = "User Stories";
 			sourceTree = "<group>";
@@ -293,6 +362,7 @@
 			isa = PBXGroup;
 			children = (
 				31000585233F269F001F9F7E /* .gitkeep */,
+				3112C7F4233F2CB100C4D36F /* ModuleTransitionable.swift */,
 			);
 			path = "Reusable Layer";
 			sourceTree = "<group>";
@@ -329,6 +399,7 @@
 			isa = PBXGroup;
 			children = (
 				310005AB233F269F001F9F7E /* .gitkeep */,
+				4939C8EE28921BAAE09A3A81 /* User Stories */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -339,8 +410,58 @@
 				4EFC7E7D6B9D1C1ACD2064C1 /* Pods-IndoorNavigation.debug.xcconfig */,
 				0B9FFCD5989AF3097BD774CE /* Pods-IndoorNavigation.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		4939C8EE28921BAAE09A3A81 /* User Stories */ = {
+			isa = PBXGroup;
+			children = (
+				2F0CA8E3E03051BC3AB5572E /* MainModule */,
+			);
+			path = "User Stories";
+			sourceTree = "<group>";
+		};
+		627528B2696EB440EAEFD08B /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				94A6E99C24B32651770F7721 /* MainModuleModuleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		6F7C1CB84310365B14788F02 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D66A789E507F930AB69C9500 /* MainModulePresenterTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A321D96FF5A8864037FB4902 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E392608FA10897DFD250610C /* MainModuleRouter.swift */,
+				84B4AC3C604B1FD7F68003EA /* MainModuleRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		AA8D05E4CFB6452E4CCE2A4F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7C7906A0724DD4C71CC62E1F /* MainModulePresenter.swift */,
+				D408260BBD6D27AF001176A4 /* MainModuleModuleInput.swift */,
+				2CCF11684361C7FCD184D2DD /* MainModuleModuleOutput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C373D065DF19067E657975EB /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				184C732462A1543415710378 /* MainModuleModuleConfiguratorTests.swift */,
+			);
+			path = Configurator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,11 +472,11 @@
 			buildConfigurationList = 310005B0233F269F001F9F7E /* Build configuration list for PBXNativeTarget "IndoorNavigation" */;
 			buildPhases = (
 				3B0B98DB593BA590C9983D3C /* [CP] Check Pods Manifest.lock */,
-				31000559233F269F001F9F7E /* Sources */,
 				3100055A233F269F001F9F7E /* Frameworks */,
-				3100055B233F269F001F9F7E /* Resources */,
 				3100055C233F269F001F9F7E /* Swift Lint */,
 				3100055D233F269F001F9F7E /* Swift Gen */,
+				6C592B11F36687500FAFA8AF /* Sources */,
+				32F3D137F933629D467CFC5D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -423,26 +544,18 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3100055B233F269F001F9F7E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3100059A233F269F001F9F7E /* Gemfile in Resources */,
-				3100058A233F269F001F9F7E /* LaunchScreen.xib in Resources */,
-				31000566233F269F001F9F7E /* Podfile in Resources */,
-				31000568233F269F001F9F7E /* .gitignore in Resources */,
-				31000596233F269F001F9F7E /* .swiftlint.yml in Resources */,
-				3100059C233F269F001F9F7E /* commit-msg in Resources */,
-				31000564233F269F001F9F7E /* fastlane in Resources */,
-				3100058C233F269F001F9F7E /* Assets.xcassets in Resources */,
-				31000594233F269F001F9F7E /* swiftgen.yml in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		310005A2233F269F001F9F7E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F3D137F933629D467CFC5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3728B11995F909B54AAF0658 /* MainModuleViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,20 +623,32 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		31000559233F269F001F9F7E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				31000598233F269F001F9F7E /* Makefile in Sources */,
-				3100058E233F269F001F9F7E /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		310005A0233F269F001F9F7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				310005A9233F269F001F9F7E /* IndoorNavigationTests.swift in Sources */,
+				72FD716B44AA81446E60E8BE /* MainModuleModuleConfiguratorTests.swift in Sources */,
+				510903BB3F5106FEF71E7108 /* MainModuleRouterTests.swift in Sources */,
+				2622BE6C265103F3FBF9B6A5 /* MainModulePresenterTests.swift in Sources */,
+				5EE84C65DA9C0D36F318B8E9 /* MainModuleViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C592B11F36687500FAFA8AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C66E18596C7B140DCABBF0 /* MainModuleModuleConfigurator.swift in Sources */,
+				EAEBDE59F6162170CD4473F1 /* MainModuleRouter.swift in Sources */,
+				61B1713CDF126C6200F6FB95 /* MainModuleRouterInput.swift in Sources */,
+				32BEEC84B959A1BF5D96A495 /* MainModulePresenter.swift in Sources */,
+				9E4A2CAD4728738162A4021A /* MainModuleModuleInput.swift in Sources */,
+				3112C7F5233F2CB100C4D36F /* ModuleTransitionable.swift in Sources */,
+				FE6D7A2973A4E21286EA3EEA /* MainModuleModuleOutput.swift in Sources */,
+				12CE2582586BBEA77501C3EB /* MainModuleViewController.swift in Sources */,
+				6B74047128632D0860AA7C0F /* MainModuleViewInput.swift in Sources */,
+				3D2022FDBCAB80725014CDEC /* MainModuleViewOutput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
