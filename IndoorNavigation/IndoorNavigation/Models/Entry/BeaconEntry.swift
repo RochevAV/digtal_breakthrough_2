@@ -5,7 +5,7 @@ struct BeaconEntry {
     let uuid: String
     let major: String
     let minor: String
-    let distance: String
+    let distance: Int
 }
 
 // MARK: - Decodable
@@ -26,7 +26,7 @@ extension BeaconEntry: Codable {
         self.uuid = try container.decode(String.self, forKey: .uuid)
         self.major = try container.decode(String.self, forKey: .major)
         self.minor = try container.decode(String.self, forKey: .minor)
-        self.distance = try container.decode(String.self, forKey: .distance)
+        self.distance = try container.decode(Int.self, forKey: .distance)
     }
 
     func encode(to encoder: Encoder) throws {

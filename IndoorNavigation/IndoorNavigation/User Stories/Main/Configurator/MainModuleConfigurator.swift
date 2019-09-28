@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreLocation
 
 final class MainModuleConfigurator {
 
@@ -17,7 +18,9 @@ final class MainModuleConfigurator {
                                       bundle: Bundle.main).instantiateInitialViewController() as? MainViewController else {
             fatalError("Can't load MainViewController from storyboard, check that controller is initial view controller")
         }
-        let presenter = MainPresenter()
+
+        let locationManager = BeaconRadar(with: CLLocationManager())
+        let presenter = MainPresenter(with: locationManager)
         let router = MainRouter()
 
         presenter.view = view

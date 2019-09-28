@@ -7,5 +7,7 @@
 //
 
 protocol MainViewInput: class {
+    
+    func changeColor()
 
 }

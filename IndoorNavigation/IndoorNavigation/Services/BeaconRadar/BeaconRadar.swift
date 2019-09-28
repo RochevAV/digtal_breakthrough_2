@@ -19,19 +19,19 @@ class BeaconRadar: NSObject {
 
     // MARK: - Public Properties
 
-    var state: State = .disabled
+    private(set) var state: State = .disabled
+    var baseBeacon: Beacon?
 
-    var didEntryToWorkRegion: EmptyBlock?
+    var didEnteredToWorkRegion: EmptyBlock?
+    var didCameoutToWorkRegion: EmptyBlock?
     var didUpdateDistance: CLProximityBlock?
 
     // MARK: Private Properties
 
-    private var baseBeacon: Beacon
     private var locationManager: CLLocationManager
 
-    init(with baseBeacon: Beacon, locationManager: CLLocationManager) {
+    init(with locationManager: CLLocationManager) {
         self.locationManager = locationManager
-        self.baseBeacon = baseBeacon
         super.init()
         configure()
     }
@@ -56,18 +56,33 @@ extension BeaconRadar: CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
             if status == .authorizedAlways {
             if CLLocationManager.isMonitoringAvailable(for: CLBeaconRegion.self) {
-                if CLLocationManager.isRangingAvailable(), let region = baseBeacon.region {
+                if CLLocationManager.isRangingAvailable(), let region = baseBeacon?.region {
                     scaning(beacon: region)
                 }
             }
         }
     }
-    
+
     func locationManager(_ manager: CLLocationManager, didRangeBeacons beacons: [CLBeacon], in region: CLBeaconRegion) {
-        if beacons.count > 0 {
-            updateDistance(beacons[0].proximity)
-        } else {
+
+        guard !beacons.isEmpty else {
             updateDistance(.unknown)
+            return
+        }
+        updateDistance(beacons[0].proximity)
+        didEnteredToWorkRegion?()
+        let beacon = beacons.first(where: { item in
+            if let uuid = baseBeacon?.getUuid {
+                if #available(iOS 13.0, *) {
+                    return item.uuid == uuid
+                } else {
+                    return false
+                }
+            }
+            return false
+        })
+        if beacon != nil {
+
         }
     }
 
@@ -91,4 +106,5 @@ extension Beacon {
                               minor: minor,
                               identifier: identifier)
     }
+
 }

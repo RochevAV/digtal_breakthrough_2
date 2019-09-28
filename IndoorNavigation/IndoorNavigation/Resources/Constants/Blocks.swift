@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import CoreLocation
 
 typealias EmptyBlock = () -> Void
 typealias StringBlock = (String) -> Void
@@ -20,6 +21,5 @@ typealias ImageBlock = (UIImage?) -> Void
 typealias FloatBlock = (Float) -> Void
 typealias UIColorBlock = (UIColor) -> Void
 typealias CLProximityBlock = (CLProximity) -> Void
-
 
 typealias Tag = (title: String, disabled: Bool)

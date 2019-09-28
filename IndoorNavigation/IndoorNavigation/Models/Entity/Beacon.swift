@@ -14,7 +14,14 @@ struct Beacon {
     let uuid: String
     let major: String
     let minor: String
-    let distance: String
+    let distance: Int
+}
+
+extension Beacon {
+
+    var getUuid: UUID? {
+        return UUID(uuidString: uuid)
+    }
 }
 
 // MARK: - DTOConvertible
