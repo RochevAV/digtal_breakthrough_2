@@ -24,6 +24,7 @@
 		310005A9233F269F001F9F7E /* IndoorNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310005A8233F269F001F9F7E /* IndoorNavigationTests.swift */; };
 		3112C7F5233F2CB100C4D36F /* ModuleTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112C7F4233F2CB100C4D36F /* ModuleTransitionable.swift */; };
 		3112C7F6233F2EA800C4D36F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100058D233F269F001F9F7E /* AppDelegate.swift */; };
+		311C4D8E2340C24D009E5C37 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311C4D8D2340C24D009E5C37 /* TaskTableViewCell.swift */; };
 		315176B0233F7194008A41A5 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315176AF233F7194008A41A5 /* LocationService.swift */; };
 		31517907233F743400567C1D /* CustomChains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31517906233F743400567C1D /* CustomChains.swift */; };
 		3151790A233F7DF000567C1D /* BeaconRadar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31517909233F7DF000567C1D /* BeaconRadar.swift */; };
@@ -199,6 +200,7 @@
 		3112C7F2233F2B8700C4D36F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3112C7F3233F2BB200C4D36F /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile; sourceTree = SOURCE_ROOT; };
 		3112C7F4233F2CB100C4D36F /* ModuleTransitionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleTransitionable.swift; sourceTree = "<group>"; };
+		311C4D8D2340C24D009E5C37 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
 		315176AF233F7194008A41A5 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		31517906233F743400567C1D /* CustomChains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChains.swift; sourceTree = "<group>"; };
 		31517909233F7DF000567C1D /* BeaconRadar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconRadar.swift; sourceTree = "<group>"; };
@@ -1213,6 +1215,7 @@
 				B3BC64C12A07C768ADE0D16C /* TaskOnDayViewController.storyboard */,
 				B7F5E809227E7D10E33F4EB8 /* TaskOnDayViewInput.swift */,
 				E575A9E0F8B0415BC2592287 /* TaskOnDayViewOutput.swift */,
+				311C4D8D2340C24D009E5C37 /* TaskTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1671,6 +1674,7 @@
 				31517907233F743400567C1D /* CustomChains.swift in Sources */,
 				3199D3572340837F0020D3E2 /* Fonts.swift in Sources */,
 				91CCC17A492653657ED5381E /* TaskOnDayModuleInput.swift in Sources */,
+				311C4D8E2340C24D009E5C37 /* TaskTableViewCell.swift in Sources */,
 				E468F525FC614EA96790CC4B /* TaskOnDayModuleOutput.swift in Sources */,
 				8B8CEE24450C7E81208951DA /* TaskOnDayViewController.swift in Sources */,
 				3D77F749733743CA9E0D1C34 /* TaskOnDayViewInput.swift in Sources */,

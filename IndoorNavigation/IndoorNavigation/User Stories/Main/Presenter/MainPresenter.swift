@@ -53,7 +53,7 @@ final class MainPresenter: MainModuleInput {
         service.didCheckIn = { beacon in
             self.locationService.checkIn(beacon: beacon)
                 .onCompleted { _ in
-                    
+
                 }
             self.router?.didUpdate(beacon: beacon)
         }
@@ -61,7 +61,7 @@ final class MainPresenter: MainModuleInput {
         service.baseBeacon = Beacon(identifier: Constants.uuid,
                                     uuid: Constants.uuid,
                                     major: Constants.major,
-                                    minor: Constants.minor)        
+                                    minor: Constants.minor)
     }
 }
 

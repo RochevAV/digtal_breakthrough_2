@@ -8,4 +8,6 @@
 
 protocol TaskOnDayViewInput: class {
 
+    func update(with tasks: Tasks)
+
 }

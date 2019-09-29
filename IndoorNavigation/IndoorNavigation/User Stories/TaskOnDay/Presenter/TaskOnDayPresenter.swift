@@ -6,7 +6,7 @@
 //  Copyright © 2019 Aleksey Rochev. All rights reserved.
 //
 
-final class TaskOnDayPresenter: TaskOnDayViewOutput, TaskOnDayModuleInput {
+final class TaskOnDayPresenter: TaskOnDayModuleInput {
 
     // MARK: - Properties
 
@@ -14,8 +14,27 @@ final class TaskOnDayPresenter: TaskOnDayViewOutput, TaskOnDayModuleInput {
     var router: TaskOnDayRouterInput?
     var output: TaskOnDayModuleOutput?
 
+    // MARK: - Private Properties
+
+    var taskService = TaskService()
+
     // MARK: - TaskOnDayViewOutput
 
-    // MARK: - TaskOnDayModuleInput
+}
 
+// MARK: - TaskOnDayViewOutput
+
+extension TaskOnDayPresenter: TaskOnDayViewOutput {
+
+    func viewDidLoad() {
+
+        taskService.getTasks()
+        .onCompleted { tasks in
+
+        }
+    }
+
+    func selected(task: Task) {
+
+    }
 }

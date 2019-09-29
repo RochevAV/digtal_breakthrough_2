@@ -7,5 +7,6 @@
 //
 
 protocol TaskOnDayViewOutput {
-
+    func viewDidLoad()
+    func selected(task: Task)
 }

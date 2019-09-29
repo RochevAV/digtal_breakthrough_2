@@ -11,11 +11,11 @@ import UIKit
 final class EndDayViewController: UIViewController, ModuleTransitionable {
 
     // MARK: - IBOtlets
-    
+
     @IBOutlet private weak var maps: UIImageView!
     @IBOutlet private weak var majorLabel: UILabel!
     @IBOutlet private weak var minorLabel: UILabel!
-    
+
     @IBAction
     func clickedButton(_ sender: Any) {
         guard let button = sender as? UIButton else {
@@ -34,7 +34,7 @@ final class EndDayViewController: UIViewController, ModuleTransitionable {
     // MARK: - UIViewController
 
     private var beacon: Beacon?
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         configureAppearance()
@@ -77,7 +77,7 @@ extension EndDayViewController: EndDayViewInput {
         }
         majorLabel.text = "\(beacon.major)"
         minorLabel.text = "\(beacon.minor)"
-        
+
         let item = view.subviews.first {
             return $0.tag == Int(beacon.minor)
         }
@@ -85,7 +85,7 @@ extension EndDayViewController: EndDayViewInput {
             button.blinking(for: .checkin)
         }
     }
-    
+
     func clearButtons() {
         view.subviews.forEach { item in
             guard let button = item as? UIButton else {

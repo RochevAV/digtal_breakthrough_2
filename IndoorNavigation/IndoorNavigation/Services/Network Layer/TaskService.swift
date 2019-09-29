@@ -11,7 +11,7 @@ import NodeKit
 final class TaskService {
 
     private enum Endpoint: UrlRouteProvider {
-        case allTask
+        case allTasks
         case sendLocation([Beacon])
         case checkIn(Beacon)
 
@@ -19,8 +19,8 @@ final class TaskService {
         func url() throws -> URL {
             let baseUrl = URL(fileURLWithPath: "https://radarservice.vapor.cloud/" )
             switch self {
-            case .allTask:
-                return try baseUrl + "/allNodes"
+            case .allTasks:
+                return try baseUrl + "/allTasks"
             case .sendLocation(let location):
                 return try baseUrl + "/location/\(location)"
             case .checkIn(let beacon):
@@ -30,9 +30,9 @@ final class TaskService {
     }
 
     /// Возвращает все вершины
-    func getNodes() -> Observer<[Beacon]> {
+    func getTasks() -> Observer<Tasks> {
         return CustomChain()
-            .default(with: .init(method: .get, route: Endpoint.allTask))
+            .default(with: .init(method: .get, route: Endpoint.allTasks, encoding: .json))
             .process()
     }
 

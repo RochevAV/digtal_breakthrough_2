@@ -9,13 +9,13 @@
 import UIKit
 
 extension UIButton {
-    
+
     enum BlinkingState {
         case disabled
         case checkin
         case alarm
     }
-    
+
     func blinking(for state: BlinkingState) {
         alpha = 0.3
         switch state {
@@ -27,6 +27,5 @@ extension UIButton {
             backgroundColor = .red
         }
     }
-    
-}
 
+}
