@@ -1,17 +1,17 @@
 //
-//  LocationService.swift
+//  TaskService.swift
 //  IndoorNavigation
 //
-//  Created by Aleksey Rochev on 28.09.2019.
+//  Created by Aleksey Rochev on 29.09.2019.
 //  Copyright © 2019 Aleksey Rochev. All rights reserved.
 //
 
 import NodeKit
 
-final class LocationService {
+final class TaskService {
 
     private enum Endpoint: UrlRouteProvider {
-        case allNodes
+        case allTask
         case sendLocation([Beacon])
         case checkIn(Beacon)
 
@@ -19,7 +19,7 @@ final class LocationService {
         func url() throws -> URL {
             let baseUrl = URL(fileURLWithPath: "https://radarservice.vapor.cloud/" )
             switch self {
-            case .allNodes:
+            case .allTask:
                 return try baseUrl + "/allNodes"
             case .sendLocation(let location):
                 return try baseUrl + "/location/\(location)"
@@ -32,7 +32,7 @@ final class LocationService {
     /// Возвращает все вершины
     func getNodes() -> Observer<[Beacon]> {
         return CustomChain()
-            .default(with: .init(method: .get, route: Endpoint.allNodes))
+            .default(with: .init(method: .get, route: Endpoint.allTask))
             .process()
     }
 

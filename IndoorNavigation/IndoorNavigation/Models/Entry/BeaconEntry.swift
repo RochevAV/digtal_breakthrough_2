@@ -5,7 +5,6 @@ struct BeaconEntry {
     let uuid: String
     let major: UInt16
     let minor: UInt16
-    let distance: Int
 }
 
 // MARK: - Decodable
@@ -17,7 +16,6 @@ extension BeaconEntry: Codable {
         case uuid
         case major
         case minor
-        case distance
     }
 
     init(from decoder: Decoder) throws {
@@ -26,7 +24,6 @@ extension BeaconEntry: Codable {
         self.uuid = try container.decode(String.self, forKey: .uuid)
         self.major = try container.decode(UInt16.self, forKey: .major)
         self.minor = try container.decode(UInt16.self, forKey: .minor)
-        self.distance = try container.decode(Int.self, forKey: .distance)
     }
 
     func encode(to encoder: Encoder) throws {
@@ -35,7 +32,6 @@ extension BeaconEntry: Codable {
         try container.encode(self.uuid, forKey: .uuid)
         try container.encode(self.major, forKey: .major)
         try container.encode(self.minor, forKey: .minor)
-        try container.encode(self.distance, forKey: .distance)
     }
 }
 

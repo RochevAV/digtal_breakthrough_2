@@ -29,6 +29,17 @@
 		3151790A233F7DF000567C1D /* BeaconRadar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31517909233F7DF000567C1D /* BeaconRadar.swift */; };
 		3151790C233F817500567C1D /* Blocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3151790B233F817500567C1D /* Blocks.swift */; };
 		3151790E233FBD1200567C1D /* iBeacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3151790D233FBD1200567C1D /* iBeacon.swift */; };
+		3199D35523407F0C0020D3E2 /* ModuleTransitionableNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3199D35423407F0C0020D3E2 /* ModuleTransitionableNav.swift */; };
+		3199D3562340837C0020D3E2 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31000590233F269F001F9F7E /* Assets.swift */; };
+		3199D3572340837F0020D3E2 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31000591233F269F001F9F7E /* Fonts.swift */; };
+		3199D358234083810020D3E2 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31000592233F269F001F9F7E /* Strings.swift */; };
+		3199D359234083EF0020D3E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3100058B233F269F001F9F7E /* Assets.xcassets */; };
+		3199D36C234091D90020D3E2 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3199D36B234091D90020D3E2 /* UIButtonExtension.swift */; };
+		31D77B0E2340534E0073350A /* TaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D77B0D2340534E0073350A /* TaskService.swift */; };
+		31D77B102340539E0073350A /* TaskEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D77B0F2340539E0073350A /* TaskEntry.swift */; };
+		31D77B12234054F40073350A /* TasksEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D77B11234054F40073350A /* TasksEntry.swift */; };
+		31D77B14234055DF0073350A /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D77B13234055DF0073350A /* Tasks.swift */; };
+		31D77B16234055F70073350A /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D77B15234055F70073350A /* Task.swift */; };
 		31E45CE2233F4E35003A4572 /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E45CE1233F4E35003A4572 /* Beacon.swift */; };
 		31E45CE4233F4F6B003A4572 /* BeaconEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E45CE3233F4F6B003A4572 /* BeaconEntry.swift */; };
 		33B26634D46BB3E63B95EE36 /* MainModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067AAA5B46096C79CCBD47C4 /* MainModuleOutput.swift */; };
@@ -193,6 +204,13 @@
 		31517909233F7DF000567C1D /* BeaconRadar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconRadar.swift; sourceTree = "<group>"; };
 		3151790B233F817500567C1D /* Blocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blocks.swift; sourceTree = "<group>"; };
 		3151790D233FBD1200567C1D /* iBeacon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBeacon.swift; sourceTree = "<group>"; };
+		3199D35423407F0C0020D3E2 /* ModuleTransitionableNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleTransitionableNav.swift; sourceTree = "<group>"; };
+		3199D36B234091D90020D3E2 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		31D77B0D2340534E0073350A /* TaskService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskService.swift; sourceTree = "<group>"; };
+		31D77B0F2340539E0073350A /* TaskEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEntry.swift; sourceTree = "<group>"; };
+		31D77B11234054F40073350A /* TasksEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksEntry.swift; sourceTree = "<group>"; };
+		31D77B13234055DF0073350A /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		31D77B15234055F70073350A /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		31E45CE1233F4E35003A4572 /* Beacon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
 		31E45CE3233F4F6B003A4572 /* BeaconEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconEntry.swift; sourceTree = "<group>"; };
 		350BCB962C7AC448758502A3 /* TaskOnDayModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskOnDayModuleOutput.swift; sourceTree = "<group>"; };
@@ -628,6 +646,8 @@
 			children = (
 				3100057A233F269F001F9F7E /* .gitkeep */,
 				31E45CE1233F4E35003A4572 /* Beacon.swift */,
+				31D77B15234055F70073350A /* Task.swift */,
+				31D77B13234055DF0073350A /* Tasks.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -637,6 +657,8 @@
 			children = (
 				3100057C233F269F001F9F7E /* .gitkeep */,
 				31E45CE3233F4F6B003A4572 /* BeaconEntry.swift */,
+				31D77B0F2340539E0073350A /* TaskEntry.swift */,
+				31D77B11234054F40073350A /* TasksEntry.swift */,
 			);
 			path = Entry;
 			sourceTree = "<group>";
@@ -673,6 +695,7 @@
 			isa = PBXGroup;
 			children = (
 				31000583233F269F001F9F7E /* .gitkeep */,
+				3199D36B234091D90020D3E2 /* UIButtonExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -682,6 +705,7 @@
 			children = (
 				31000585233F269F001F9F7E /* .gitkeep */,
 				3112C7F4233F2CB100C4D36F /* ModuleTransitionable.swift */,
+				3199D35423407F0C0020D3E2 /* ModuleTransitionableNav.swift */,
 			);
 			path = "Reusable Layer";
 			sourceTree = "<group>";
@@ -727,6 +751,7 @@
 			isa = PBXGroup;
 			children = (
 				315176AF233F7194008A41A5 /* LocationService.swift */,
+				31D77B0D2340534E0073350A /* TaskService.swift */,
 			);
 			path = "Network Layer";
 			sourceTree = "<group>";
@@ -1462,6 +1487,7 @@
 				600AA5A87A50E7A543968BDE /* TaskOnDayViewController.storyboard in Resources */,
 				F2CA3F4CCDA04E776DBACC66 /* BeginDayViewController.storyboard in Resources */,
 				535FC213E72132DF518442E2 /* EndDayViewController.storyboard in Resources */,
+				3199D359234083EF0020D3E2 /* Assets.xcassets in Resources */,
 				60B685D4E36361EA3C8C4543 /* MainViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1618,13 +1644,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31D77B0E2340534E0073350A /* TaskService.swift in Sources */,
 				3112C7F6233F2EA800C4D36F /* AppDelegate.swift in Sources */,
 				3112C7F5233F2CB100C4D36F /* ModuleTransitionable.swift in Sources */,
+				31D77B16234055F70073350A /* Task.swift in Sources */,
 				31E45CE4233F4F6B003A4572 /* BeaconEntry.swift in Sources */,
 				31E45CE2233F4E35003A4572 /* Beacon.swift in Sources */,
 				B729242A1487468326B08B31 /* TaskOnLocationModuleConfigurator.swift in Sources */,
 				3151790E233FBD1200567C1D /* iBeacon.swift in Sources */,
+				31D77B12234054F40073350A /* TasksEntry.swift in Sources */,
+				3199D36C234091D90020D3E2 /* UIButtonExtension.swift in Sources */,
 				AD4DD038A40243FBFCD26AEA /* TaskOnLocationRouter.swift in Sources */,
+				3199D35523407F0C0020D3E2 /* ModuleTransitionableNav.swift in Sources */,
 				8EE1A5C82CC4327DD75014FF /* TaskOnLocationRouterInput.swift in Sources */,
 				68B131D5F5A5961146E69AB1 /* TaskOnLocationPresenter.swift in Sources */,
 				D1972AE79066125C53A960E1 /* TaskOnLocationModuleInput.swift in Sources */,
@@ -1633,10 +1664,12 @@
 				286E4FE642F0AB304C62D94E /* TaskOnLocationViewInput.swift in Sources */,
 				B139FB75A00C16DF4D3BEA2F /* TaskOnLocationViewOutput.swift in Sources */,
 				C8EC28A9D1F38EA3D24D316F /* TaskOnDayModuleConfigurator.swift in Sources */,
+				3199D3562340837C0020D3E2 /* Assets.swift in Sources */,
 				EAB8B4C49A580E79558DEC55 /* TaskOnDayRouter.swift in Sources */,
 				2E9BEED6D62A1AD6EDC417DB /* TaskOnDayRouterInput.swift in Sources */,
 				9775D9A730E0AE2E6C4D5ED6 /* TaskOnDayPresenter.swift in Sources */,
 				31517907233F743400567C1D /* CustomChains.swift in Sources */,
+				3199D3572340837F0020D3E2 /* Fonts.swift in Sources */,
 				91CCC17A492653657ED5381E /* TaskOnDayModuleInput.swift in Sources */,
 				E468F525FC614EA96790CC4B /* TaskOnDayModuleOutput.swift in Sources */,
 				8B8CEE24450C7E81208951DA /* TaskOnDayViewController.swift in Sources */,
@@ -1657,6 +1690,8 @@
 				EDF759C0FB4E034E12F403F2 /* EndDayRouterInput.swift in Sources */,
 				F12A051B3BD1C8D4BD181E4A /* EndDayPresenter.swift in Sources */,
 				B65C58A4EA308583CF5E1823 /* EndDayModuleInput.swift in Sources */,
+				31D77B102340539E0073350A /* TaskEntry.swift in Sources */,
+				31D77B14234055DF0073350A /* Tasks.swift in Sources */,
 				0890DF613B11044198B7FA05 /* EndDayModuleOutput.swift in Sources */,
 				3151790A233F7DF000567C1D /* BeaconRadar.swift in Sources */,
 				901ACC0A0349B171233FCF59 /* EndDayViewController.swift in Sources */,
@@ -1665,6 +1700,7 @@
 				387A638E2050955507482A87 /* MainModuleConfigurator.swift in Sources */,
 				5E63E0F022CAC4C2D01B0896 /* MainRouter.swift in Sources */,
 				315176B0233F7194008A41A5 /* LocationService.swift in Sources */,
+				3199D358234083810020D3E2 /* Strings.swift in Sources */,
 				614CB15831B890C900DB3E72 /* MainRouterInput.swift in Sources */,
 				50953386F739B5DCD2B15AB8 /* MainPresenter.swift in Sources */,
 				C5C0D61541DF71B91BBC3AA6 /* MainModuleInput.swift in Sources */,

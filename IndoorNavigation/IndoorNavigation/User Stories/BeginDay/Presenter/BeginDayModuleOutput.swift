@@ -7,5 +7,6 @@
 //
 
 protocol BeginDayModuleOutput: class {
-
+    func showTask()
+    func showConfigureMode()
 }

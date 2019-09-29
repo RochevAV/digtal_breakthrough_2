@@ -30,6 +30,7 @@ class BeaconRadar: NSObject {
     // MARK: Private Properties
 
     private var locationManager: CLLocationManager
+    private var lastBeacon: CLBeacon?
 
     init(with locationManager: CLLocationManager) {
         self.locationManager = locationManager
@@ -44,7 +45,10 @@ class BeaconRadar: NSObject {
         locationManager.requestAlwaysAuthorization()
     }
 
-    func scaning(beacon: CLBeaconRegion) {
+    func scaning() {
+        guard let beacon = baseBeacon?.region else {
+            return
+        }
         locationManager.startMonitoring(for: beacon)
         locationManager.startRangingBeacons(in: beacon)
     }
@@ -57,8 +61,8 @@ extension BeaconRadar: CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
             if status == .authorizedAlways {
             if CLLocationManager.isMonitoringAvailable(for: CLBeaconRegion.self) {
-                if CLLocationManager.isRangingAvailable(), let region = baseBeacon?.region {
-                    scaning(beacon: region)
+                if CLLocationManager.isRangingAvailable() {
+                    scaning()
                 }
             }
         }
@@ -69,9 +73,12 @@ extension BeaconRadar: CLLocationManagerDelegate {
             updateDistance(.unknown)
             return
         }
-        updateDistance(beacons[0].proximity)
-        beacons.filter { $0.proximity == .immediate }.forEach {
-            self.checkIn(beacon: $0)
+        beacons.filter { $0.proximity == .immediate }.forEach { beacon in
+            if beacon.minor != self.lastBeacon?.minor ||
+               beacon.major != self.lastBeacon?.major {
+                self.checkIn(beacon: beacon)
+                self.lastBeacon = beacon
+            }
         }
     }
 
@@ -91,7 +98,7 @@ extension Beacon {
                 return nil
         }
         return CLBeaconRegion(proximityUUID: uuid,
-                       identifier: "com.example.myDeviceRegion")
+                              identifier: "com.example.myDeviceRegion")
     }
 
 }
@@ -100,8 +107,7 @@ extension CLBeacon {
     var convertBeacon: Beacon {
         return Beacon(identifier: self.proximityUUID.uuidString,
                       uuid: self.uuid.uuidString,
-                      major: UInt16(self.major),
-                      minor: UInt16(self.minor),
-                      distance: 0)
+                      major: UInt16(truncating: self.major),
+                      minor: UInt16(truncating: self.minor))
     }
 }

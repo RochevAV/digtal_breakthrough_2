@@ -6,7 +6,7 @@
 //  Copyright © 2019 Aleksey Rochev. All rights reserved.
 //
 
-final class BeginDayPresenter: BeginDayViewOutput, BeginDayModuleInput {
+final class BeginDayPresenter: BeginDayModuleInput {
 
     // MARK: - Properties
 
@@ -14,8 +14,19 @@ final class BeginDayPresenter: BeginDayViewOutput, BeginDayModuleInput {
     var router: BeginDayRouterInput?
     var output: BeginDayModuleOutput?
 
-    // MARK: - BeginDayViewOutput
-
     // MARK: - BeginDayModuleInput
 
+}
+
+// MARK: - BeginDayViewOutput
+
+extension BeginDayPresenter: BeginDayViewOutput {
+
+    func showTask() {
+        output?.showTask()
+    }
+
+    func showConfigureMode() {
+        output?.showConfigureMode()
+    }
 }

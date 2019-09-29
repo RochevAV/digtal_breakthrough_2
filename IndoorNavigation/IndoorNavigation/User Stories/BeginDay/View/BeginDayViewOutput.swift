@@ -7,5 +7,6 @@
 //
 
 protocol BeginDayViewOutput {
-
+    func showTask()
+    func showConfigureMode()
 }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class MainViewController: UIViewController, MainViewInput, ModuleTransitionable {
+final class MainViewController: UINavigationController, MainViewInput, ModuleTransitionableNav {
 
     // MARK: - Properties
 
@@ -18,6 +18,11 @@ final class MainViewController: UIViewController, MainViewInput, ModuleTransitio
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        output?.viewDidLoad()
     }
 
     // MARK: - MainViewInput

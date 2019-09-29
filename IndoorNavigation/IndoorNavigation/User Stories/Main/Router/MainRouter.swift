@@ -12,32 +12,49 @@ final class MainRouter {
 
     // MARK: - Properties
 
-    weak var view: ModuleTransitionable?
+    weak var view: ModuleTransitionableNav?
+    
+    var configVC: EndDayViewInput?
 
 }
 
 // MARK: - MainRouterInput
 
 extension MainRouter: MainRouterInput {
+    
     func openBeginDay() {
-        let viewController = BeginDayModuleConfigurator().configure()
-        view?.push(module: viewController, animated: false)
+        let viewController = BeginDayModuleConfigurator().configure(output: self)
+        self.view?.push(module: viewController, animated: true)
     }
 
     func openEndDay() {
         let viewController = EndDayModuleConfigurator().configure()
-        view?.presentModule(viewController, animated: false, completion: nil)
-
+        configVC = viewController
+        self.view?.push(module: viewController, animated: true)
     }
 
     func openTaskOnDay() {
         let viewController = TaskOnDayModuleConfigurator().configure()
-        view?.presentModule(viewController, animated: false, completion: nil)
-
+        self.view?.push(module: viewController, animated: true)
     }
 
     func openTaskOnLocation() {
         let viewController = TaskOnLocationModuleConfigurator().configure()
-        view?.presentModule(viewController, animated: false, completion: nil)
+        self.view?.push(module: viewController, animated: true)
+    }
+    
+    func didUpdate(beacon: Beacon?) {
+        configVC?.didUpdate(beacon: beacon)
+    }
+}
+
+extension MainRouter: BeginDayModuleOutput {
+
+    func showTask() {
+        openTaskOnDay()
+    }
+
+    func showConfigureMode() {
+        openEndDay()
     }
 }

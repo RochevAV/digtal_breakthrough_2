@@ -17,5 +17,8 @@ final class EndDayPresenter: EndDayViewOutput, EndDayModuleInput {
     // MARK: - EndDayViewOutput
 
     // MARK: - EndDayModuleInput
-
+    
+    func didUpdate(beacon: Beacon?) {
+        view?.didUpdate(beacon: beacon)
+    }
 }

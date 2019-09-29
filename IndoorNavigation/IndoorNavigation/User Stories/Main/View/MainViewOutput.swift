@@ -7,5 +7,5 @@
 //
 
 protocol MainViewOutput {
-
+    func viewDidLoad()
 }

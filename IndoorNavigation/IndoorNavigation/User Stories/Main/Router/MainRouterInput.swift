@@ -13,4 +13,5 @@ protocol MainRouterInput {
     func openEndDay()
     func openTaskOnDay()
     func openTaskOnLocation()
+    func didUpdate(beacon: Beacon?)
 }

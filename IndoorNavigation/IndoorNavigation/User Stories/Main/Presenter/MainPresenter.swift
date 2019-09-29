@@ -6,7 +6,7 @@
 //  Copyright © 2019 Aleksey Rochev. All rights reserved.
 //
 
-final class MainPresenter: MainViewOutput, MainModuleInput {
+final class MainPresenter: MainModuleInput {
 
     // MARK: - Constants
 
@@ -52,16 +52,26 @@ final class MainPresenter: MainViewOutput, MainModuleInput {
 
         service.didCheckIn = { beacon in
             self.locationService.checkIn(beacon: beacon)
+                .onCompleted { _ in
+                    
+                }
+            self.router?.didUpdate(beacon: beacon)
         }
 
         service.baseBeacon = Beacon(identifier: Constants.uuid,
                                     uuid: Constants.uuid,
                                     major: Constants.major,
-                                    minor: Constants.minor,
-                                    distance: 5)
+                                    minor: Constants.minor)        
     }
 }
 
 // MARK: - MainViewOutput
+
+extension MainPresenter: MainViewOutput {
+
+    func viewDidLoad() {
+        router?.openBeginDay()
+    }
+}
 
 // MARK: - MainModuleInput

@@ -17,7 +17,6 @@ struct Beacon {
     let major: UInt16
     ///значение, с помощью которого можно группировать маяки с одинаковым UUID и Major
     let minor: UInt16
-    let distance: Int
 }
 
 extension Beacon {
@@ -36,15 +35,13 @@ extension Beacon: DTOConvertible {
         return Beacon(identifier: model.identifier,
                       uuid: model.uuid,
                       major: model.major,
-                      minor: model.minor,
-                      distance: model.distance)
+                      minor: model.minor)
     }
 
     func toDTO() throws -> DTO {
         return BeaconEntry(identifier: self.identifier,
                            uuid: self.uuid,
                            major: self.major,
-                           minor: self.minor,
-                           distance: self.distance)
+                           minor: self.minor)
     }
 }

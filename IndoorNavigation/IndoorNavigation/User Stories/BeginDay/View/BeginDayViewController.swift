@@ -20,6 +20,16 @@ final class BeginDayViewController: UIViewController, BeginDayViewInput, ModuleT
         super.viewDidLoad()
     }
 
+    @IBAction
+    func getTaskButton(_ sender: Any) {
+        output?.showTask()
+    }
+
+    @IBAction
+    func showConfigurationMode(_ sender: Any) {
+        output?.showConfigureMode()
+    }
+
     // MARK: - BeginDayViewInput
 
 }

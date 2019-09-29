@@ -15,11 +15,12 @@ final class MainModuleConfigurator {
 
     func configure(output: MainModuleOutput? = nil) -> MainViewController {
         guard let view = UIStoryboard(name: String(describing: MainViewController.self),
-                                      bundle: Bundle.main).instantiateInitialViewController() as? MainViewController else {
+                                            bundle: Bundle.main).instantiateInitialViewController() as? MainViewController else {
             fatalError("Can't load MainViewController from storyboard, check that controller is initial view controller")
         }
-
+        
         let locationManager = BeaconRadar(with: CLLocationManager())
+        
         let presenter = MainPresenter(with: locationManager)
         let router = MainRouter()
 

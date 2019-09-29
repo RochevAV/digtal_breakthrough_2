@@ -7,5 +7,5 @@
 //
 
 protocol EndDayModuleInput: class {
-
+    func didUpdate(beacon: Beacon?)
 }

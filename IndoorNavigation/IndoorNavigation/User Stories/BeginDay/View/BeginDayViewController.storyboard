@@ -1,22 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="h3k-bK-TNO">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="h3k-bK-TNO">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Begin Day View Controller-->
         <scene sceneID="PlN-iW-H7B">
             <objects>
                 <viewController id="h3k-bK-TNO" customClass="BeginDayViewController" customModule="IndoorNavigation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cA6-JB-jfU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z1N-Ki-CGi">
+                                <rect key="frame" x="37.5" y="283.5" width="300" height="100"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="D2I-k1-xc1"/>
+                                    <constraint firstAttribute="width" constant="300" id="UvH-d4-sPH"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="Получить задания"/>
+                                <connections>
+                                    <action selector="getTaskButton:" destination="h3k-bK-TNO" eventType="touchUpInside" id="ohN-E5-AJ8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kIa-1F-rKP">
+                                <rect key="frame" x="37.5" y="413.5" width="300" height="100"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="C7J-G9-SLT"/>
+                                    <constraint firstAttribute="width" constant="300" id="PUM-9y-qqd"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="Режим конфигурации"/>
+                                <connections>
+                                    <action selector="showConfigurationMode:" destination="h3k-bK-TNO" eventType="touchUpInside" id="rgA-IR-4NI"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="kIa-1F-rKP" firstAttribute="centerX" secondItem="cA6-JB-jfU" secondAttribute="centerX" id="1s1-xq-Ypb"/>
+                            <constraint firstItem="Z1N-Ki-CGi" firstAttribute="centerX" secondItem="cA6-JB-jfU" secondAttribute="centerX" id="8JM-Xd-Thv"/>
+                            <constraint firstItem="Z1N-Ki-CGi" firstAttribute="centerY" secondItem="cA6-JB-jfU" secondAttribute="centerY" id="B1E-QN-HAX"/>
+                            <constraint firstItem="kIa-1F-rKP" firstAttribute="top" secondItem="Z1N-Ki-CGi" secondAttribute="bottom" constant="30" id="R7r-Tu-NtG"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="YWU-9O-L7t"/>
                     </view>
                 </viewController>
