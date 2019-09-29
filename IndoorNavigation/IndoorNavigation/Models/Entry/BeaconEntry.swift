@@ -3,8 +3,8 @@ import NodeKit
 struct BeaconEntry {
     let identifier: String
     let uuid: String
-    let major: String
-    let minor: String
+    let major: UInt16
+    let minor: UInt16
     let distance: Int
 }
 
@@ -24,8 +24,8 @@ extension BeaconEntry: Codable {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         self.identifier = try container.decode(String.self, forKey: .identifier)
         self.uuid = try container.decode(String.self, forKey: .uuid)
-        self.major = try container.decode(String.self, forKey: .major)
-        self.minor = try container.decode(String.self, forKey: .minor)
+        self.major = try container.decode(UInt16.self, forKey: .major)
+        self.minor = try container.decode(UInt16.self, forKey: .minor)
         self.distance = try container.decode(Int.self, forKey: .distance)
     }
 

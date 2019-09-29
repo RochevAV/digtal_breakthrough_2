@@ -8,6 +8,14 @@
 
 final class MainPresenter: MainViewOutput, MainModuleInput {
 
+    // MARK: - Constants
+
+    private enum Constants {
+        static let major: UInt16 = 16808
+        static let minor: UInt16 = 16808
+        static let uuid = "1E75D047-5A38-4152-9FA5-F95EFB7DEBAF"
+    }
+
     // MARK: - Properties
 
     weak var view: MainViewInput?
@@ -17,16 +25,18 @@ final class MainPresenter: MainViewOutput, MainModuleInput {
     // MARK: Private Properties
 
     private var service: BeaconRadar
+    private var locationService: LocationService
 
     init(with service: BeaconRadar) {
         self.service = service
+        self.locationService = LocationService()
         configure()
     }
 
     // MARK: Private Methods
 
     private func configure() {
-        
+
         service.didEnteredToWorkRegion = {
             self.router?.openBeginDay()
             self.view?.changeColor()
@@ -39,11 +49,15 @@ final class MainPresenter: MainViewOutput, MainModuleInput {
         service.didUpdateDistance = { _ in
 
         }
-        
-        service.baseBeacon = Beacon(identifier: "34E87C7A-D3B0-4C40-BC1C-B87990DE4A3E",
-                                    uuid: "34E87C7A-D3B0-4C40-BC1C-B87990DE4A3E",
-                                    major: "16808",
-                                    minor: "19400",
+
+        service.didCheckIn = { beacon in
+            self.locationService.checkIn(beacon: beacon)
+        }
+
+        service.baseBeacon = Beacon(identifier: Constants.uuid,
+                                    uuid: Constants.uuid,
+                                    major: Constants.major,
+                                    minor: Constants.minor,
                                     distance: 5)
     }
 }

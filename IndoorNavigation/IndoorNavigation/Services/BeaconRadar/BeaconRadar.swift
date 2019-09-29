@@ -25,6 +25,7 @@ class BeaconRadar: NSObject {
     var didEnteredToWorkRegion: EmptyBlock?
     var didCameoutToWorkRegion: EmptyBlock?
     var didUpdateDistance: CLProximityBlock?
+    var didCheckIn: BeaconBlock?
 
     // MARK: Private Properties
 
@@ -64,26 +65,18 @@ extension BeaconRadar: CLLocationManagerDelegate {
     }
 
     func locationManager(_ manager: CLLocationManager, didRangeBeacons beacons: [CLBeacon], in region: CLBeaconRegion) {
-
         guard !beacons.isEmpty else {
             updateDistance(.unknown)
             return
         }
         updateDistance(beacons[0].proximity)
-        didEnteredToWorkRegion?()
-        let beacon = beacons.first(where: { item in
-            if let uuid = baseBeacon?.getUuid {
-                if #available(iOS 13.0, *) {
-                    return item.uuid == uuid
-                } else {
-                    return false
-                }
-            }
-            return false
-        })
-        if beacon != nil {
-
+        beacons.filter { $0.proximity == .immediate }.forEach {
+            self.checkIn(beacon: $0)
         }
+    }
+
+    func checkIn(beacon: CLBeacon) {
+        didCheckIn?(beacon.convertBeacon)
     }
 
     func updateDistance(_ distance: CLProximity) {
@@ -94,17 +87,21 @@ extension BeaconRadar: CLLocationManagerDelegate {
 extension Beacon {
 
     var region: CLBeaconRegion? {
-        guard
-            let uuid = UUID(uuidString: uuid),
-            let major = UInt16(major),
-            let minor = UInt16(minor)
-        else {
+        guard let uuid = UUID(uuidString: uuid) else {
                 return nil
         }
         return CLBeaconRegion(proximityUUID: uuid,
-                              major: major,
-                              minor: minor,
-                              identifier: identifier)
+                       identifier: "com.example.myDeviceRegion")
     }
 
+}
+
+extension CLBeacon {
+    var convertBeacon: Beacon {
+        return Beacon(identifier: self.proximityUUID.uuidString,
+                      uuid: self.uuid.uuidString,
+                      major: UInt16(self.major),
+                      minor: UInt16(self.minor),
+                      distance: 0)
+    }
 }

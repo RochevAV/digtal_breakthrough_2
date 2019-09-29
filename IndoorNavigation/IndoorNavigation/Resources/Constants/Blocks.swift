@@ -21,5 +21,6 @@ typealias ImageBlock = (UIImage?) -> Void
 typealias FloatBlock = (Float) -> Void
 typealias UIColorBlock = (UIColor) -> Void
 typealias CLProximityBlock = (CLProximity) -> Void
+typealias BeaconBlock = (Beacon) -> Void
 
 typealias Tag = (title: String, disabled: Bool)

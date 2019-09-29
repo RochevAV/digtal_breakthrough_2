@@ -13,31 +13,32 @@ final class LocationService {
     private enum Endpoint: UrlRouteProvider {
         case allBeacons
         case sendLocation([Beacon])
-        case bindCard(String)
-        case awailableToBindAccounts(String)
-        case changePinStep1(String)
-        case changePinStep2(String)
-        case changePinConfirm(String)
-        case shortCards
-        case changeLimit(String)
-        case blockCard(String)
-        case blockCardConfirm(String)
-        case activation(String)
-        case activationQuestion(String)
-        case activationQuestionAnswer(String)
-
+        case checkIn(Beacon)
 // swiftlint:disable cyclomatic_complexity
 
         func url() throws -> URL {
-            return URL(fileURLWithPath: "https://radarservice.vapor.cloud/hello")
+            let baseUrl = URL(fileURLWithPath: "https://radarservice.vapor.cloud/")
+            switch self {
+            case .allBeacons:
+                return try baseUrl + "/allBeacons"
+            case .sendLocation(let location):
+                return try baseUrl + "/location"
+            case .checkIn(let beacon):
+                return try baseUrl + "/checkIn"
+            }
         }
-
     }
 
     /// Возвращает все маяки
     func getBeacons() -> Observer<[Beacon]> {
         return CustomChain()
             .default(with: .init(method: .get, route: Endpoint.allBeacons))
+            .process()
+    }
+
+    func checkIn(beacon: Beacon) -> Observer<Beacon> {
+        return CustomChain()
+            .default(with: .init(method: .post, route: Endpoint.checkIn(beacon)))
             .process()
     }
 

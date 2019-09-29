@@ -21,7 +21,7 @@ final class MainViewController: UIViewController, MainViewInput, ModuleTransitio
     }
 
     // MARK: - MainViewInput
-    
+
     func changeColor() {
         view.backgroundColor = .red
     }

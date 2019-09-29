@@ -11,9 +11,12 @@ import Foundation
 
 struct Beacon {
     let identifier: String
+    ///Уникальный идентификатор группы маяков, определяющий их тип или принадлежность одной организации
     let uuid: String
-    let major: String
-    let minor: String
+    ///Значение, с помощью которого можно группировать маяки с одинаковым UUID
+    let major: UInt16
+    ///значение, с помощью которого можно группировать маяки с одинаковым UUID и Major
+    let minor: UInt16
     let distance: Int
 }
 

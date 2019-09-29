@@ -21,8 +21,7 @@ final class MainRouter {
 extension MainRouter: MainRouterInput {
     func openBeginDay() {
         let viewController = BeginDayModuleConfigurator().configure()
-        view?.presentModule(viewController, animated: false, completion: nil)
-
+        view?.push(module: viewController, animated: false)
     }
 
     func openEndDay() {
